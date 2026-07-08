@@ -329,7 +329,7 @@ header p {
 }
 
 .mode-description {
-    margin-top: 1rem;
+    margin: 1rem auto 0 auto;
     font-size: 0.95rem;
     color: var(--text-muted);
     max-width: 500px;
