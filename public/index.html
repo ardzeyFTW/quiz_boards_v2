@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Quiz Master</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <!-- Topic Selection Screen -->
+        <section id="topic-screen" class="screen active">
+            <header>
+                <h1>Quiz Master</h1>
+                <p>Select a topic to begin</p>
+                <div class="mode-toggle-container">
+                    <span class="mode-label" id="speedrun-label" style="color: var(--primary); font-weight: 600;">Speedrun Mode</span>
+                    <label class="switch">
+                        <input type="checkbox" id="mode-toggle">
+                        <span class="slider round"></span>
+                    </label>
+                    <span class="mode-label" id="mastery-label">Mastery Mode (Recommended)</span>
+                </div>
+                <div id="mode-description" class="mode-description">
+                    <strong>Speedrun Mode:</strong> Answer each question once. Good for a quick test of your current knowledge.
+                </div>
+            </header>
+            <div id="topic-container" class="grid-container">
+                <div class="text-center" style="grid-column: 1 / -1; color: var(--text-muted);">
+                    Loading topics...
+                </div>
+            </div>
+        </section>
+
+        <!-- Subtopic Selection Screen -->
+        <section id="subtopic-screen" class="screen">
+            <header class="subtopic-header">
+                <div class="back-btn-wrapper">
+                    <button id="back-to-topics-btn" class="icon-btn">← Back to Topics</button>
+                </div>
+                <h1 id="subtopic-title">Topic Name</h1>
+                <p>Select a quiz part</p>
+            </header>
+            <div id="subtopic-container" class="grid-container"></div>
+        </section>
+
+        <!-- Quiz Screen -->
+        <section id="quiz-screen" class="screen">
+            <header class="quiz-header">
+                <button id="back-btn" class="icon-btn">← Back</button>
+                <div class="progress-container">
+                    <span id="progress-text">Question 1/10</span>
+                    <div class="progress-bar"><div id="progress-fill"></div></div>
+                </div>
+                <div class="score-display">Score: <span id="current-score">0</span></div>
+            </header>
+            <div class="question-container glass-panel">
+                <h2 id="question-text">Question text goes here?</h2>
+                <div id="choices-container" class="choices-list"></div>
+            </div>
+            <button id="next-btn" class="primary-btn hidden">Next Question →</button>
+        </section>
+
+        <!-- Results Screen -->
+        <section id="results-screen" class="screen">
+            <div class="glass-panel text-center">
+                <h2>Quiz Complete!</h2>
+                <div class="final-score">
+                    <span id="final-score-text">0/0</span>
+                </div>
+                <p id="score-message">Great job!</p>
+                <button id="home-btn" class="primary-btn">Back to Quizzes</button>
+            </div>
+        </section>
+        
+        <!-- Confirmation Modal -->
+        <div id="confirm-modal" class="modal">
+            <div class="modal-content glass-panel">
+                <h3>Reset Progress?</h3>
+                <p id="confirm-message">Are you sure you want to reset this?</p>
+                <div class="modal-actions">
+                    <button id="cancel-reset-btn" class="secondary-btn">Cancel</button>
+                    <button id="confirm-reset-btn" class="danger-btn">Yes, Reset</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
