@@ -192,7 +192,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (masteredQuestionsCount > 0) {
                     scoreText = `<p class="score-badge">Mastered: ${masteredPercentage}%</p>`;
                 } else if (isActiveHere) {
-                    scoreText = `<p class="score-badge untouched" style="color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); background: rgba(251, 191, 36, 0.1);">In Progress</p>`;
+                    let currentMasteryPoints = 0;
+                    Object.values(savedSession.masteryTracking).forEach(val => currentMasteryPoints += val);
+                    let percentage = Math.round((currentMasteryPoints / savedSession.totalMasteryRequired) * 100);
+                    scoreText = `<p class="score-badge untouched" style="color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); background: rgba(251, 191, 36, 0.1);">In Progress: ${percentage}%</p>`;
                 } else {
                     scoreText = `<p class="score-badge untouched">Not mastered</p>`;
                 }
@@ -211,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (answeredTotal > 0) {
                     scoreText = `<p class="score-badge">Score: ${answeredScore}/${totalQuestions} (${Math.round((answeredScore / totalQuestions) * 100)}%)</p>`;
                 } else if (isActiveHere) {
-                    scoreText = `<p class="score-badge untouched" style="color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); background: rgba(251, 191, 36, 0.1);">In Progress</p>`;
+                    scoreText = `<p class="score-badge untouched" style="color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); background: rgba(251, 191, 36, 0.1);">In Progress: Q${savedSession.currentQuestionIndex + 1}/${savedSession.currentQuizQuestions.length}</p>`;
                 } else {
                     scoreText = `<p class="score-badge untouched">Not started</p>`;
                 }
