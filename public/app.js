@@ -72,6 +72,38 @@ document.addEventListener('DOMContentLoaded', () => {
         if (onConfirmCallback) onConfirmCallback();
     });
 
+    // Session Persistence
+    const ACTIVE_SESSION_KEY = 'quizActiveSession';
+
+    function saveSession() {
+        const sessionData = {
+            topicName: currentTopicName,
+            quizIndex: currentQuizIndex,
+            mode: isMasteryMode ? 'mastery' : 'speedrun',
+            currentQuizQuestions,
+            currentQuestionIndex,
+            score,
+            masteryQueue,
+            masteryTracking,
+            totalMasteryRequired
+        };
+        localStorage.setItem(ACTIVE_SESSION_KEY, JSON.stringify(sessionData));
+    }
+
+    function clearSession(topicName, quizIndex) {
+        let savedSessionStr = localStorage.getItem(ACTIVE_SESSION_KEY);
+        if (savedSessionStr) {
+            let savedSession = JSON.parse(savedSessionStr);
+            let shouldClear = true;
+            if (topicName && savedSession.topicName !== topicName) shouldClear = false;
+            if (quizIndex !== undefined && savedSession.quizIndex !== quizIndex) shouldClear = false;
+            
+            if (shouldClear) {
+                localStorage.removeItem(ACTIVE_SESSION_KEY);
+            }
+        }
+    }
+
     // Fetch data
     fetch('extracted_questions.json', { cache: 'no-cache' })
         .then(response => response.json())
@@ -182,6 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
             resetBtn.addEventListener('click', (e) => {
                 e.stopPropagation();
                 showConfirmModal(`Are you sure you want to reset your score for ${displayName}?`, () => {
+                    clearSession(topicName);
                     if (isMasteryMode) {
                         delete masteryScoresData[topicName];
                         localStorage.setItem('quizMasteryScores', JSON.stringify(masteryScoresData));
@@ -243,6 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
             resetBtn.addEventListener('click', (e) => {
                 e.stopPropagation();
                 showConfirmModal(`Are you sure you want to reset your score for Quiz ${index + 1}?`, () => {
+                    clearSession(topicName, index);
                     if (isMasteryMode) {
                         if (masteryScoresData[topicName]) {
                             delete masteryScoresData[topicName][index];
@@ -268,17 +302,38 @@ document.addEventListener('DOMContentLoaded', () => {
     function startQuiz(topicName, quizIndex) {
         currentTopicName = topicName;
         currentQuizIndex = quizIndex;
-        currentQuizQuestions = [...topicsMap.get(topicName)[quizIndex]];
-        shuffleArray(currentQuizQuestions);
         
-        if (isMasteryMode) {
-            masteryQueue = [...currentQuizQuestions];
-            masteryTracking = {};
-            currentQuizQuestions.forEach(q => masteryTracking[q.id] = 0);
-            totalMasteryRequired = currentQuizQuestions.length * 2;
+        let savedSessionStr = localStorage.getItem(ACTIVE_SESSION_KEY);
+        let savedSession = savedSessionStr ? JSON.parse(savedSessionStr) : null;
+        let modeStr = isMasteryMode ? 'mastery' : 'speedrun';
+
+        if (savedSession && 
+            savedSession.topicName === topicName && 
+            savedSession.quizIndex === quizIndex && 
+            savedSession.mode === modeStr) {
+            
+            currentQuizQuestions = savedSession.currentQuizQuestions;
+            if (isMasteryMode) {
+                masteryQueue = savedSession.masteryQueue;
+                masteryTracking = savedSession.masteryTracking;
+                totalMasteryRequired = savedSession.totalMasteryRequired;
+            } else {
+                currentQuestionIndex = savedSession.currentQuestionIndex;
+                score = savedSession.score;
+            }
         } else {
-            currentQuestionIndex = 0;
-            score = 0;
+            currentQuizQuestions = [...topicsMap.get(topicName)[quizIndex]];
+            shuffleArray(currentQuizQuestions);
+            
+            if (isMasteryMode) {
+                masteryQueue = [...currentQuizQuestions];
+                masteryTracking = {};
+                currentQuizQuestions.forEach(q => masteryTracking[q.id] = 0);
+                totalMasteryRequired = currentQuizQuestions.length * 2;
+            } else {
+                currentQuestionIndex = 0;
+                score = 0;
+            }
         }
         
         switchScreen(quizScreen);
@@ -286,6 +341,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function renderQuestion() {
+        saveSession();
         let question;
         if (isMasteryMode) {
             question = masteryQueue[0];
@@ -402,6 +458,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function finishQuiz() {
+        clearSession();
         if (isMasteryMode) {
             if (!masteryScoresData[currentTopicName]) masteryScoresData[currentTopicName] = {};
             masteryScoresData[currentTopicName][currentQuizIndex] = true;
@@ -470,9 +527,7 @@ document.addEventListener('DOMContentLoaded', () => {
     nextBtn.addEventListener('click', nextQuestion);
     
     backBtn.addEventListener('click', () => {
-        if(confirm('Are you sure you want to exit the current quiz? Your progress will be lost.')) {
-            showSubtopics(currentTopicName);
-        }
+        showSubtopics(currentTopicName);
     });
     
     backToTopicsBtn.addEventListener('click', () => {
