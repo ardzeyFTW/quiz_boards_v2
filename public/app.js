@@ -177,6 +177,9 @@ document.addEventListener('DOMContentLoaded', () => {
             let totalQuestions = quizzes.reduce((sum, q) => sum + q.length, 0);
             let scoreText = '';
             
+            let savedSessionStr = localStorage.getItem(ACTIVE_SESSION_KEY);
+            let savedSession = savedSessionStr ? JSON.parse(savedSessionStr) : null;
+
             if (isMasteryMode) {
                 let topicMasteryData = masteryScoresData[topicName] || {};
                 let masteredQuestionsCount = 0;
@@ -184,10 +187,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     masteredQuestionsCount += quizzes[quizIndex].length;
                 });
                 let masteredPercentage = Math.round((masteredQuestionsCount / totalQuestions) * 100);
+                let isActiveHere = savedSession && savedSession.topicName === topicName && savedSession.mode === 'mastery';
                 
-                scoreText = masteredQuestionsCount > 0 
-                    ? `<p class="score-badge">Mastered: ${masteredPercentage}%</p>` 
-                    : `<p class="score-badge untouched">Not mastered</p>`;
+                if (masteredQuestionsCount > 0) {
+                    scoreText = `<p class="score-badge">Mastered: ${masteredPercentage}%</p>`;
+                } else if (isActiveHere) {
+                    scoreText = `<p class="score-badge untouched" style="color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); background: rgba(251, 191, 36, 0.1);">In Progress</p>`;
+                } else {
+                    scoreText = `<p class="score-badge untouched">Not mastered</p>`;
+                }
             } else {
                 let topicScoreData = scoresData[topicName] || {};
                 let answeredScore = 0;
@@ -198,9 +206,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     answeredTotal += quizScore.total;
                 });
                 
-                scoreText = answeredTotal > 0 
-                    ? `<p class="score-badge">Score: ${answeredScore}/${totalQuestions} (${Math.round((answeredScore / totalQuestions) * 100)}%)</p>` 
-                    : `<p class="score-badge untouched">Not started</p>`;
+                let isActiveHere = savedSession && savedSession.topicName === topicName && savedSession.mode === 'speedrun';
+
+                if (answeredTotal > 0) {
+                    scoreText = `<p class="score-badge">Score: ${answeredScore}/${totalQuestions} (${Math.round((answeredScore / totalQuestions) * 100)}%)</p>`;
+                } else if (isActiveHere) {
+                    scoreText = `<p class="score-badge untouched" style="color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); background: rgba(251, 191, 36, 0.1);">In Progress</p>`;
+                } else {
+                    scoreText = `<p class="score-badge untouched">Not started</p>`;
+                }
             }
 
             card.innerHTML = `
@@ -250,19 +264,36 @@ document.addEventListener('DOMContentLoaded', () => {
             
             let scoreHtml = '';
             
+            let savedSessionStr = localStorage.getItem(ACTIVE_SESSION_KEY);
+            let savedSession = savedSessionStr ? JSON.parse(savedSessionStr) : null;
+            
             if (isMasteryMode) {
                 let topicMasteryData = masteryScoresData[topicName] || {};
                 let isMastered = topicMasteryData[index];
+                let isActiveHere = savedSession && savedSession.topicName === topicName && savedSession.quizIndex === index && savedSession.mode === 'mastery';
                 
-                scoreHtml = isMastered
-                    ? `<p class="score-badge">Mastered ✓</p>`
-                    : `<p class="score-badge untouched">Not mastered</p>`;
+                if (isMastered) {
+                    scoreHtml = `<p class="score-badge">Mastered ✓</p>`;
+                } else if (isActiveHere) {
+                    let currentMasteryPoints = 0;
+                    Object.values(savedSession.masteryTracking).forEach(val => currentMasteryPoints += val);
+                    let percentage = Math.round((currentMasteryPoints / savedSession.totalMasteryRequired) * 100);
+                    scoreHtml = `<p class="score-badge untouched" style="color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); background: rgba(251, 191, 36, 0.1);">In Progress: ${percentage}%</p>`;
+                } else {
+                    scoreHtml = `<p class="score-badge untouched">Not mastered</p>`;
+                }
             } else {
                 let topicScoreData = scoresData[topicName] || {};
                 let bestScore = topicScoreData[index];
-                scoreHtml = bestScore 
-                    ? `<p class="score-badge">Best Score: ${bestScore.score}/${bestScore.total} (${Math.round((bestScore.score/bestScore.total)*100)}%)</p>`
-                    : `<p class="score-badge untouched">Not started</p>`;
+                let isActiveHere = savedSession && savedSession.topicName === topicName && savedSession.quizIndex === index && savedSession.mode === 'speedrun';
+                
+                if (isActiveHere) {
+                    scoreHtml = `<p class="score-badge untouched" style="color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); background: rgba(251, 191, 36, 0.1);">In Progress: Q${savedSession.currentQuestionIndex + 1}/${savedSession.currentQuizQuestions.length}</p>`;
+                } else if (bestScore) {
+                    scoreHtml = `<p class="score-badge">Best Score: ${bestScore.score}/${bestScore.total} (${Math.round((bestScore.score/bestScore.total)*100)}%)</p>`;
+                } else {
+                    scoreHtml = `<p class="score-badge untouched">Not started</p>`;
+                }
             }
 
             card.innerHTML = `
