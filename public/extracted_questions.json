@@ -11195,5 +11195,1925 @@
             "Identify Risks and Develop Project Charter"
         ],
         "answer": "Plan Risk Management and Collect Requirements"
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Who is the present chairman of the board of Electrical Engineering?",
+        "choices": [
+            "Jaime Mendoza",
+            "Rodolfo Penalosa",
+            "Francis Mapile",
+            "Fortunato Leynes"
+        ],
+        "answer": "Francis Mapile",
+        "id": 1
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Who was the Chairman of the BEE when the Code of Ethics RA 7920 was approved?",
+        "choices": [
+            "Engr. Roy F. Gil",
+            "Engr. Rafael F. Florentino",
+            "Engr. Paul Woo",
+            "Engr. Gerardo Gaor"
+        ],
+        "answer": "Engr. Rafael F. Florentino",
+        "id": 2
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "To qualified applicants for examination, notice of admission shall be issued not later than __________ days prior to the first day of examination.",
+        "choices": [
+            "30",
+            "10",
+            "15",
+            "20"
+        ],
+        "answer": "10",
+        "id": 3
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "A PEE, REE, or RME who has been delinquent in the payment of annual registration fees for __________ consecutive years shall not be allowed to practice his or her profession.",
+        "choices": [
+            "3",
+            "5",
+            "6",
+            "10"
+        ],
+        "answer": "5",
+        "id": 4
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "The new Electrical Engineering law originated from House Bill no. __________ and Senate Bill no. __________.",
+        "choices": [
+            "11075 and 1875",
+            "11070 and 1871",
+            "11063 and 1766",
+            "11065 and 1870"
+        ],
+        "answer": "11063 and 1766",
+        "id": 5
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "SEC 4 of ARTICLE II states the power and duties of the Board of Electrical Engineering. What does it mean by quasi-legislative?",
+        "choices": [
+            "law-making",
+            "rule-making",
+            "administrative",
+            "executive"
+        ],
+        "answer": "rule-making",
+        "id": 6
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "SEC 4 of ARTICLE II states the powers and duties of the Board of Electrical Engineering. What does it mean by quasi-judicial?",
+        "choices": [
+            "Censorship",
+            "investigative",
+            "control",
+            "monitoring"
+        ],
+        "answer": "investigative",
+        "id": 7
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Who was the chairman of the Board of Electrical Engineering when the Implementing Rules and Regulation of RA 7920 was adopted?",
+        "choices": [
+            "Baylon G. Tolentino",
+            "Roy F. Gil",
+            "Genardo V. Gaor",
+            "Rafael F. Florentino"
+        ],
+        "answer": "Rafael F. Florentino",
+        "id": 8
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "RA 7920 was approved by former president Fidel V. Ramos on",
+        "choices": [
+            "Feb 14, 1995",
+            "Feb 21, 1995",
+            "Feb 24, 1995",
+            "Feb 27, 1995"
+        ],
+        "answer": "Feb 24, 1995",
+        "id": 9
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Vacancies of the board of Electrical Engineering shall be filled by the __________ from the list of recommendees selected by the PRC commissioner.",
+        "choices": [
+            "Chairman of the Board",
+            "President of the Philippines",
+            "IIEE",
+            "PRC Commissioner"
+        ],
+        "answer": "President of the Philippines",
+        "id": 10
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Sec. 14(a)(iii) of Art. III. Examination and registration, states that prior to commencing of work the foreign professional shall secure special permit from the",
+        "choices": [
+            "Commission",
+            "IIEE",
+            "POEA",
+            "BEE"
+        ],
+        "answer": "Commission",
+        "id": 11
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Which of the following Republic Act provides a framework for the restructuring of the electric power industry including the privatization of the assets of NPC and the transition to the desired competitive structure?",
+        "choices": [
+            "7920",
+            "9136",
+            "7832",
+            "8981"
+        ],
+        "answer": "9136",
+        "id": 12
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "The electric power industry was divided into four sectors by RA 9136 namely: generation, transmission, distribution, and",
+        "choices": [
+            "Electricity end-users",
+            "Commercial consumers",
+            "Supply",
+            "Residential consumers"
+        ],
+        "answer": "Supply",
+        "id": 13
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Also known as PRC Renewal Law",
+        "choices": [
+            "RA 8189",
+            "RA 8981",
+            "RA 7920",
+            "RA 184"
+        ],
+        "answer": "RA 8981",
+        "id": 14
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "What does PRBEE stand for?",
+        "choices": [
+            "Philippine Regulating Board of Electrical Engineering",
+            "Professional Regulatory Board of Electrical Engineering",
+            "Philippine Regulatory Board of Electrical Engineering",
+            "Professional Regulating Board of Electrical Engineering"
+        ],
+        "answer": "Professional Regulatory Board of Electrical Engineering",
+        "id": 15
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Which are NOT included in duties and responsibilities of PRBEE?",
+        "choices": [
+            "Supervise and regulate the practice of electrical engineering in the Philippines",
+            "Issue special permits to individual foreign electrical engineers and electricians for specific projects",
+            "Perform such other functions and duties as may be necessary to implement effectively this Act",
+            "All of these"
+        ],
+        "answer": "Issue special permits to individual foreign electrical engineers and electricians for specific projects",
+        "id": 16
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "The overall energy program formulated and updated yearly by the DOE and submitted to congress pursuant to R.A. 7638 is the:",
+        "choices": [
+            "Power development plan (PDP)",
+            "Philippine Electrical Code",
+            "Philippine Energy Plan",
+            "Preliminary project planning data (PPPD)"
+        ],
+        "answer": "Philippine Energy Plan",
+        "id": 17
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Article III, Rule 7 of RA 7920 IRR covers:",
+        "choices": [
+            "Enforcement Execution",
+            "Official Business with the Commission",
+            "Promulgation of Decisions, Rules, etc.",
+            "Assignment of Duties"
+        ],
+        "answer": "Promulgation of Decisions, Rules, etc.",
+        "id": 18
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Sec. 23 of Art III: Issuance of Certificates of Registration. The professional is required to renew the license every __________ years upon payment of registration fees.",
+        "choices": [
+            "1",
+            "2",
+            "3",
+            "6"
+        ],
+        "answer": "3",
+        "id": 19
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Each Board member at the time of his appointment shall be at least __________ years of age.",
+        "choices": [
+            "35",
+            "40",
+            "45",
+            "50"
+        ],
+        "answer": "35",
+        "id": 20
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Up to what kVA capacity and voltage rating of an electric plant requires only one registered master electrician?",
+        "choices": [
+            "600 kVA, 600 V",
+            "500 kVA, 250 V",
+            "500 kVA, 440 V",
+            "500 kVA, 600 V"
+        ],
+        "answer": "500 kVA, 600 V",
+        "id": 21
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Under Rule 19, the Board upon the approval of the commission shall officially release the results of the examination not later than __________ days from the date of the exam.",
+        "choices": [
+            "4",
+            "6",
+            "10",
+            "25"
+        ],
+        "answer": "10",
+        "id": 22
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Exemption from examination and registration granted to foreign electrical engineers shall be good only for:",
+        "choices": [
+            "6 months",
+            "1 year",
+            "2 years",
+            "3 years"
+        ],
+        "answer": "1 year",
+        "id": 23
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Certificate of __________ shall be issued by the Board, subject to the approval of the Commission, to Professional Electrical Engineers who have been screened and recommended by IIEE.",
+        "choices": [
+            "specialization",
+            "specialty",
+            "excellence",
+            "recognition"
+        ],
+        "answer": "specialty",
+        "id": 24
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "What is PEMC in EPIRA?",
+        "choices": [
+            "Philippine Electricity Market Commission",
+            "Philippine Electricity Market Committee",
+            "Philippine Electricity Market Company",
+            "Philippine Electricity Market Corporation"
+        ],
+        "answer": "Philippine Electricity Market Corporation",
+        "id": 25
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "NGCP warns a __________ alert if a tropical disturbance is expected to make landfall within 24 hours.",
+        "choices": [
+            "Yellow",
+            "Blue",
+            "Red",
+            "Green"
+        ],
+        "answer": "Blue",
+        "id": 26
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Which of the following is a ground for disqualification for an applicant for the REE licensure examination?",
+        "choices": [
+            "Has been finally convicted by the court of an offense involving moral turpitude",
+            "Good reputation with low moral value",
+            "Citizen of the Philippines",
+            "At least twenty-one (21) years of age"
+        ],
+        "answer": "Has been finally convicted by the court of an offense involving moral turpitude",
+        "id": 27
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "A notice issued by the system operator when the Contingency Reserve is less than the capacity of the largest Synchronized Generating unit or power import from a single interconnection, whichever is higher.",
+        "choices": [
+            "Blue Alert",
+            "Yellow Alert",
+            "Red Alert",
+            "Green Alert"
+        ],
+        "answer": "Yellow Alert",
+        "id": 28
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "The executive officer of the Board of Electrical Engineering is",
+        "choices": [
+            "PRC Commissioner",
+            "Civil Service Commission",
+            "Chairman of the Board of EE",
+            "IIEE President"
+        ],
+        "answer": "Chairman of the Board of EE",
+        "id": 29
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Which of the following is not a part of the requirements to take the RME exam?",
+        "choices": [
+            "Taken 1-year electrician's course and 3-years apprenticeship",
+            "Taken 2-years electrician's course and 2-years apprenticeship",
+            "Taken 3-years of BSEE with apprenticeship",
+            "Graduate of BSEE with no apprenticeship needed"
+        ],
+        "answer": "Graduate of BSEE with no apprenticeship needed",
+        "id": 30
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "For the REE board examination, the passing general average is 70 percent provided there is no grade below __________ in any of the 3 subjects.",
+        "choices": [
+            "50 percent",
+            "60 percent",
+            "65 percent",
+            "40 percent"
+        ],
+        "answer": "50 percent",
+        "id": 31
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "What is the weight percent of the mathematics subject in the REE exam?",
+        "choices": [
+            "40",
+            "30",
+            "45",
+            "25"
+        ],
+        "answer": "25",
+        "id": 32
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "What is the old Electrical Engineering law?",
+        "choices": [
+            "RA 814",
+            "RA 184",
+            "RA 9136",
+            "RA 7920"
+        ],
+        "answer": "RA 184",
+        "id": 33
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "What rules are included in Article IV of the RA 7920 IRR?",
+        "choices": [
+            "Rule 1 to 10",
+            "Rule 11 to 20",
+            "Rule 21 to 27",
+            "Rule 28 to 34"
+        ],
+        "answer": "Rule 11 to 20",
+        "id": 34
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "The Professional Regulation Commission (PRC) was created under:",
+        "choices": [
+            "PD 223",
+            "PD 59",
+            "EO 223",
+            "EO 59"
+        ],
+        "answer": "PD 223",
+        "id": 35
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "What rules are included in Article V of the RA 7920 IRR?",
+        "choices": [
+            "RULE 1 to 10",
+            "RULE 11 to 20",
+            "RULE 21 to 27",
+            "RULE 28 to 34"
+        ],
+        "answer": "RULE 21 to 27",
+        "id": 36
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "For the REE board examination, the passing general average is __________ provided there is no grade below __________ in any of the 3 subjects.",
+        "choices": [
+            "75 percent, 50 percent",
+            "70 percent, 50 percent",
+            "75 percent, 60 percent",
+            "70 percent, 60 percent"
+        ],
+        "answer": "70 percent, 50 percent",
+        "id": 37
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "According to RA 7920, the members of the BEE shall hold office for a term of __________ years from the date of appointment.",
+        "choices": [
+            "6",
+            "4",
+            "3",
+            "5"
+        ],
+        "answer": "3",
+        "id": 38
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Article II of the Code of Ethics for Electrical Engineers contains:",
+        "choices": [
+            "SEC. 1 to 8",
+            "SEC 1 to 9",
+            "SEC. 1 to 6",
+            "SEC. 1 to 7"
+        ],
+        "answer": "SEC. 1 to 8",
+        "id": 39
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Article IV, Rule __________: Requirements for examination as a REE.",
+        "choices": [
+            "14",
+            "15",
+            "16",
+            "17"
+        ],
+        "answer": "14",
+        "id": 40
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "What does PDC stand for in EPIRA?",
+        "choices": [
+            "Philippine Distribution Commission",
+            "Philippine Distribution Committee",
+            "Philippine Distribution Code",
+            "Philippine Distribution Coordination"
+        ],
+        "answer": "Philippine Distribution Code",
+        "id": 41
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "What does GMC stand for?",
+        "choices": [
+            "Grid Market Commission",
+            "Generation Management Corporation",
+            "Grid Management Committee",
+            "Generator Management Committee"
+        ],
+        "answer": "Grid Management Committee",
+        "id": 42
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "DMC stands for",
+        "choices": [
+            "Distribution Market committee",
+            "Distribution Management commission",
+            "Distribution Management committee",
+            "Distribution Market commission"
+        ],
+        "answer": "Distribution Management committee",
+        "id": 43
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "What does PSALM stand for in EPIRA?",
+        "choices": [
+            "Private Sector Assets and Liabilities Management",
+            "Private Section Assets and Liabilities Management",
+            "Power Sector Assets and Liabilities Management",
+            "Power Section Assets and Liabilities Management"
+        ],
+        "answer": "Power Sector Assets and Liabilities Management",
+        "id": 44
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "As specified by the Energy Regulatory Commission, a contestable customer is a customer with a demand of at least __________ MW.",
+        "choices": [
+            "Five",
+            "Two",
+            "One",
+            "Three"
+        ],
+        "answer": "One",
+        "id": 45
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Article V of the Code of Ethics states that: This Code shall take effect upon approval by the __________ and after fifteen (15) days following its publication in the Official Gazette.",
+        "choices": [
+            "Commission",
+            "PRC",
+            "BEE",
+            "CHED"
+        ],
+        "answer": "Commission",
+        "id": 46
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "What does CPE stand for in RA 7920?",
+        "choices": [
+            "Continuous Professional Education",
+            "Continuous Professional Educator",
+            "Continuing Professional Education",
+            "Continuing Professional Educator"
+        ],
+        "answer": "Continuing Professional Education",
+        "id": 47
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Applicants for the registered master electrician's examination must be at least __________ years of age.",
+        "choices": [
+            "18",
+            "19",
+            "20",
+            "21"
+        ],
+        "answer": "18",
+        "id": 48
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Which of the following is not a part of the requirements to take the REE examination?",
+        "choices": [
+            "He is a citizen of the Philippines.",
+            "He is at least twenty-one (21) years of age.",
+            "He is of good reputation with low moral values.",
+            "He has not been finally convicted by the court of an offense involving moral turpitude."
+        ],
+        "answer": "He is of good reputation with low moral values.",
+        "id": 49
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "RA 9136 has four sectors, which of the following is not included?",
+        "choices": [
+            "System operation",
+            "supply",
+            "distribution",
+            "generation"
+        ],
+        "answer": "System operation",
+        "id": 50
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Section 40 of Article IV of RA 7920 (Penalty Clause) states that violations shall be sentenced to a fine of not less than __________ nor more than P50,000.",
+        "choices": [
+            "P 10,000",
+            "P 15,000",
+            "P 25,000",
+            "P 30,000"
+        ],
+        "answer": "P 10,000",
+        "id": 51
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "May is declared as the electrical safety month in virtue of __________ signed by Pres. Benigno Aquino III.",
+        "choices": [
+            "RA 7920",
+            "Proclamation no. 193",
+            "Proclamation no. 183",
+            "RA 184"
+        ],
+        "answer": "Proclamation no. 193",
+        "id": 52
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "In RA 9136, what does SGC stand for?",
+        "choices": [
+            "Successor Generating Company",
+            "Special Generating Company",
+            "Successor Generation Company",
+            "Special Generation Company"
+        ],
+        "answer": "Successor Generation Company",
+        "id": 53
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "In RA 9136, what does CREM stand for?",
+        "choices": [
+            "Competitive Retail Electricity Market",
+            "Competitive Retail Energy Market",
+            "Competitor Retail Electricity Market",
+            "Competitor Retail Energy Market"
+        ],
+        "answer": "Competitive Retail Electricity Market",
+        "id": 54
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "What is Article II of the Code of Ethics for Electrical Engineers?",
+        "choices": [
+            "Relations with Client and Employer",
+            "Professional Life",
+            "Relations with Fellow Engineers",
+            "Penal Provisions"
+        ],
+        "answer": "Relations with Client and Employer",
+        "id": 55
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "What is Article V of the Code of Ethics for Electrical Engineers?",
+        "choices": [
+            "Professional Life",
+            "Effectivity",
+            "Penal Provision",
+            "Relations with client and Employer"
+        ],
+        "answer": "Effectivity",
+        "id": 56
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "RA 7920 Rule 2 (f) defines:",
+        "choices": [
+            "Commission",
+            "Telegram",
+            "RA 184, old Electrical Engineering law",
+            "CPE"
+        ],
+        "answer": "CPE",
+        "id": 57
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "What does R.A. 9136 stand for?",
+        "choices": [
+            "Electric Power Industry Reform Act of 2001",
+            "Electrification Power Reform Act of 2001",
+            "Energy Power Reform Act of 2001",
+            "Energization Power Reform Act of 2001"
+        ],
+        "answer": "Electric Power Industry Reform Act of 2001",
+        "id": 58
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "Which of the following is qualified as the Chairman of the Continuing Professional Development Council for Electrical Engineering?",
+        "choices": [
+            "Representative from Association of Professional Organization",
+            "PRBEE board member",
+            "Representative from Academy",
+            "PRC Commissioner"
+        ],
+        "answer": "PRBEE board member",
+        "id": 59
+    },
+    {
+        "topic_name": "EE_LAWS_ETHICS",
+        "question_text": "What is the term used when a foreign citizen is allowed to practice their profession here in the Philippines on a reciprocal basis?",
+        "choices": [
+            "APEC registry",
+            "ACPE registry",
+            "Foreign Reciprocity",
+            "ASEAN Engr."
+        ],
+        "answer": "Foreign Reciprocity",
+        "id": 60
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What is the SI unit of pressure?",
+        "choices": [
+            "Dyne-cm",
+            "Pascal",
+            "Bar",
+            "kg/cm"
+        ],
+        "answer": "Pascal",
+        "id": 61
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What is the form of the moment diagram of a beam supported of both ends without external load?",
+        "choices": [
+            "Triangle",
+            "Linear",
+            "Circular",
+            "Parabola"
+        ],
+        "answer": "Linear",
+        "id": 62
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The first period contains how many elements?",
+        "choices": [
+            "2",
+            "4",
+            "6",
+            "8"
+        ],
+        "answer": "2",
+        "id": 63
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Which of the following would be considered a system rather than a control volume?",
+        "choices": [
+            "pump",
+            "a tire",
+            "a pressure cooker",
+            "turbine"
+        ],
+        "answer": "a tire",
+        "id": 64
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The particle inside the nucleus is called",
+        "choices": [
+            "Nucleic",
+            "nuclons",
+            "nucleons",
+            "nuclei"
+        ],
+        "answer": "nucleons",
+        "id": 65
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "In a mixed gas such as air, the rms speed of different molecules are",
+        "choices": [
+            "Proportional to molecular mass",
+            "Independent or molecular mass",
+            "Proportional to square root of molecular mass",
+            "Inversely proportional to square root of molecular mass"
+        ],
+        "answer": "Inversely proportional to square root of molecular mass",
+        "id": 66
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Which of the following reason/s why reactions generally proceed faster a higher temperature? (I. The molecules collide more frequently. II. The activation energy is less.)",
+        "choices": [
+            "I only",
+            "Either I or II",
+            "II only",
+            "Both I and II"
+        ],
+        "answer": "I only",
+        "id": 67
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Give the formula for magnesium carbonate",
+        "choices": [
+            "MgCO3",
+            "Mg CO2",
+            "MgCO",
+            "Mg2CO3"
+        ],
+        "answer": "MgCO3",
+        "id": 68
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "How many atoms are there per unit cell of a BCC structure?",
+        "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": "2",
+        "id": 69
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "How many atoms are there per unit call for a face-centered cubic structure?",
+        "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": "4",
+        "id": 70
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "A description of the arrangements of atoms or ions in a material is called",
+        "choices": [
+            "Mixture",
+            "Composition",
+            "Component",
+            "Structure"
+        ],
+        "answer": "Structure",
+        "id": 71
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What refers to a slender member which prevents parts of a structure moving to each other under compressive force?",
+        "choices": [
+            "Tie",
+            "Column",
+            "Arch",
+            "Strut"
+        ],
+        "answer": "Strut",
+        "id": 72
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What are the van der Waals forces?",
+        "choices": [
+            "Primary bonds between atoms",
+            "Forces not presents in liquids",
+            "Forces between electrons and protons",
+            "Weak secondary bonds between atoms"
+        ],
+        "answer": "Weak secondary bonds between atoms",
+        "id": 73
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The modulus of rigidity of a steel member is",
+        "choices": [
+            "Defined as the length divided by the moment of inertia",
+            "Defined as the unit shear stress divided by the unit shear deformation",
+            "Equal to the modulus of elasticity divided by one plus Poisson's ratio",
+            "A function of the length and depth"
+        ],
+        "answer": "Defined as the unit shear stress divided by the unit shear deformation",
+        "id": 74
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What is the heaviest subatomic particle?",
+        "choices": [
+            "Electron",
+            "Proton",
+            "Atom",
+            "Neutron"
+        ],
+        "answer": "Neutron",
+        "id": 75
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What is the gas present in the atmosphere which filters out of the sun's unltraviolet light and provides an effective shield against radiation damage to living things?",
+        "choices": [
+            "Helium",
+            "Methane",
+            "Oxygen",
+            "Ozone"
+        ],
+        "answer": "Ozone",
+        "id": 76
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Under which of the following type of loading does fatigue occur?",
+        "choices": [
+            "Repeated load",
+            "Plane load",
+            "Static load",
+            "High load"
+        ],
+        "answer": "Repeated load",
+        "id": 77
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Which of the following is an alkaline earth metal",
+        "choices": [
+            "Ba",
+            "Ti",
+            "Li",
+            "Na"
+        ],
+        "answer": "Ba",
+        "id": 78
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Structural steel elements subjected torsion develop",
+        "choices": [
+            "Tensile stress",
+            "compressive stress",
+            "shearing stress",
+            "bending stress"
+        ],
+        "answer": "shearing stress",
+        "id": 79
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The ozone layer exists primarily in what section of the atmosphere?",
+        "choices": [
+            "Troposphere",
+            "Stratosphere",
+            "Mesosphere",
+            "Ionosphere"
+        ],
+        "answer": "Stratosphere",
+        "id": 80
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The majority of the rocks In the earth's crust are:",
+        "choices": [
+            "Igneous",
+            "metamorphic",
+            "sedimentary",
+            "basalt"
+        ],
+        "answer": "Igneous",
+        "id": 81
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The Pauli exclusion Principle state that",
+        "choices": [
+            "Any atoms with free s orbital can from bonds",
+            "No two atoms can occupy the same orbital unless their spins are different",
+            "Two atoms can occupy the same orbital unless their spins are different",
+            "Atoms of the same configuration do not change"
+        ],
+        "answer": "No two atoms can occupy the same orbital unless their spins are different",
+        "id": 82
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Which the following refers to the parallel axis theorem for second moment of area for strength of materials?",
+        "choices": [
+            "Maxwell theorem",
+            "Young's theorem",
+            "Steiner's theorem",
+            "Mohr's theorem"
+        ],
+        "answer": "Steiner's theorem",
+        "id": 83
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What is another term of modulus of rigidity?",
+        "choices": [
+            "Modulus of elasticity",
+            "Young's modulus",
+            "Bulk modulus",
+            "Shear modulus"
+        ],
+        "answer": "Shear modulus",
+        "id": 84
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What refers to the point in which bending moment changing sign through a zero value in strength of materials?",
+        "choices": [
+            "Zero stress point",
+            "Critical point",
+            "Point of contraflexure",
+            "Point of inflection"
+        ],
+        "answer": "Point of contraflexure",
+        "id": 85
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The shape of the bending moment diagram over the length of beam, having no external load is always ___.",
+        "choices": [
+            "Cubical",
+            "Circular",
+            "Parabolic",
+            "Linear"
+        ],
+        "answer": "Linear",
+        "id": 86
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What is the only gas in Group VIA in the periodic table?",
+        "choices": [
+            "Argon",
+            "Krypton",
+            "Oxygen",
+            "Helium"
+        ],
+        "answer": "Oxygen",
+        "id": 87
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What acid is added to carbonated drinks to produce a tart test?",
+        "choices": [
+            "Citric acid",
+            "Phosphoric acid",
+            "sulfuric acid",
+            "Nitric acid"
+        ],
+        "answer": "Phosphoric acid",
+        "id": 88
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The moment of inertia of any plane figure can be expressed in units of length to the",
+        "choices": [
+            "First power",
+            "Second power",
+            "Third power",
+            "fourth power"
+        ],
+        "answer": "fourth power",
+        "id": 89
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What is the strong bond between hydrogen atoms known as?",
+        "choices": [
+            "The iconic bond",
+            "The metallic bond",
+            "ionic and metallic bonds",
+            "the covalent bond"
+        ],
+        "answer": "the covalent bond",
+        "id": 90
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "When gases expand and mix with other gases to fill available space, it is called",
+        "choices": [
+            "Vaporization",
+            "evaporation",
+            "solidification",
+            "diffusion"
+        ],
+        "answer": "diffusion",
+        "id": 91
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "A thin mild steel wire is loaded by adding loads in equal increments till it breaks. The extensions rooted with increasing loads will behave as under",
+        "choices": [
+            "Uniform throughout",
+            "first increase and then decrease",
+            "Increase uniformly",
+            "increase uniformly first and then increase rapidly"
+        ],
+        "answer": "increase uniformly first and then increase rapidly",
+        "id": 92
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "If the radius of wire stretched by a load is doubled then its Young's modulus will be",
+        "choices": [
+            "Doubled",
+            "halved",
+            "become four times",
+            "remain unaffected"
+        ],
+        "answer": "remain unaffected",
+        "id": 93
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Poisson's Ration is the ratio of the",
+        "choices": [
+            "Unit lateral deformation to the unit longitudinal deformation",
+            "Unit stress to unit strain",
+            "Elastic limit to proportional limit",
+            "Shear strain to compressive strain"
+        ],
+        "answer": "Unit lateral deformation to the unit longitudinal deformation",
+        "id": 94
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The differential of the shear equation is which one of the following?",
+        "choices": [
+            "Load on the beam",
+            "bending moment of the beam",
+            "Tensile strength of beam",
+            "slope of the elastic curve"
+        ],
+        "answer": "Load on the beam",
+        "id": 95
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What is the principle behind fiber optics?",
+        "choices": [
+            "Reflection",
+            "Refraction",
+            "Diffraction",
+            "Dispersion"
+        ],
+        "answer": "Reflection",
+        "id": 96
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "When magma rocks cool, these rocks are called",
+        "choices": [
+            "Granite",
+            "sedimentary rocks",
+            "igneous rocks",
+            "metamorphic rocks"
+        ],
+        "answer": "igneous rocks",
+        "id": 97
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The maximum bending moment of a beam simply supported at both end and subject to a total load W uniformly distributed over its length L is expressed by the formula.",
+        "choices": [
+            "WL/8",
+            "WL2/8",
+            "WL/2",
+            "WL/4"
+        ],
+        "answer": "WL/8",
+        "id": 98
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The maximum bending moment in a simple supported beam of span L and carrying a concentrated load \"W\" is",
+        "choices": [
+            "WL",
+            "WL/2",
+            "WL/4",
+            "2WL"
+        ],
+        "answer": "WL/4",
+        "id": 99
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What is the form of the moment diagram of a beam supported at both ends and carrying a uniformly distributed load?",
+        "choices": [
+            "Triangle",
+            "hyperbola",
+            "parabola",
+            "rectangle"
+        ],
+        "answer": "parabola",
+        "id": 100
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The chief source of energy in the word today is",
+        "choices": [
+            "Coal",
+            "oil",
+            "natural gas",
+            "uranium"
+        ],
+        "answer": "Coal",
+        "id": 101
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "A substance that, when added to a solution, makes changing the pH of the solution more difficult.",
+        "choices": [
+            "Catalyst",
+            "Solute",
+            "Solvent",
+            "buffer"
+        ],
+        "answer": "buffer",
+        "id": 102
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "At the highest or lowest point of the moment diagram",
+        "choices": [
+            "Maximum shear occurs",
+            "maximum moment is twice the shear",
+            "Shear is zero",
+            "shear is negative"
+        ],
+        "answer": "Shear is zero",
+        "id": 103
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The chemical shorthand name for molybdenum is",
+        "choices": [
+            "Mo",
+            "Mb",
+            "Md",
+            "Mn"
+        ],
+        "answer": "Mo",
+        "id": 104
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The three moment equation may be used to analyze",
+        "choices": [
+            "An axially end-load beam",
+            "a continuous beam",
+            "beam loaded at the third points",
+            "a step tapered column"
+        ],
+        "answer": "a continuous beam",
+        "id": 105
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The group VIII elements, called the noble or rare gases, have the following property.",
+        "choices": [
+            "They are rare",
+            "they are lighter than air",
+            "They do not react other elements",
+            "all of these"
+        ],
+        "answer": "They do not react other elements",
+        "id": 106
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "When a part is constrained to move when heated, it develops",
+        "choices": [
+            "principal stress",
+            "tensile stress",
+            "compressive stress",
+            "shear stress"
+        ],
+        "answer": "compressive stress",
+        "id": 107
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Which group of the periodic table is known as the alkali metal",
+        "choices": [
+            "Group 1",
+            "Group 2",
+            "Group 3",
+            "Group 4"
+        ],
+        "answer": "Group 1",
+        "id": 108
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The chemical name for baking soda is",
+        "choices": [
+            "Sodium bicarbonate",
+            "Sodium sulphate",
+            "Sodium chloride",
+            "Sodium carbonate"
+        ],
+        "answer": "Sodium bicarbonate",
+        "id": 109
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Simple stress is often called",
+        "choices": [
+            "direct stress",
+            "vertical stress",
+            "total stress",
+            "all of these"
+        ],
+        "answer": "direct stress",
+        "id": 110
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "In an ideal gas, both pressure and temperature increase to thrice the original pressure and temperature respectively. If the original volume is V0 then the new volume is",
+        "choices": [
+            "2V0",
+            "VO",
+            "V0/2",
+            "4V0"
+        ],
+        "answer": "VO",
+        "id": 111
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Which doesn't have electric charge?",
+        "choices": [
+            "Proton",
+            "electron",
+            "molecule",
+            "neutron"
+        ],
+        "answer": "neutron",
+        "id": 112
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The deflection of a beam is",
+        "choices": [
+            "Directly proportional to the modulus of elasticity and moment of inertia",
+            "Inversely proportional to the modulus of elasticity and the length of the beam cubed",
+            "Inversely proportional to the modulus of elasticity and moment of inertia",
+            "Directly proportional to the load imposed and inversely proportional to the length squared"
+        ],
+        "answer": "Inversely proportional to the modulus of elasticity and moment of inertia",
+        "id": 113
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What is the amount of heat needed to turn 1 kg of the substance at its melting point from the solid to the liquid state?",
+        "choices": [
+            "Heat of fusion",
+            "Heat of vaporization",
+            "Heat of condensation",
+            "Heat of fission"
+        ],
+        "answer": "Heat of fusion",
+        "id": 114
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The area of the shear diagram of a beam between any two points on the beam is equal to the",
+        "choices": [
+            "Change in shear between the two points",
+            "Average moment between the two points",
+            "Total shear beyond the two points",
+            "Change in moment between the two points"
+        ],
+        "answer": "Change in moment between the two points",
+        "id": 115
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Carbon dioxide \"snow\" from a fire extinguisher puts out a fire because it",
+        "choices": [
+            "Lowers the kindling temperature of the material",
+            "Displace the supply of oxygen",
+            "Raises the kindling temperature of the material",
+            "Cools the material below its kindling temperature"
+        ],
+        "answer": "Displace the supply of oxygen",
+        "id": 116
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The rocks generally used for roofing is",
+        "choices": [
+            "Granite",
+            "basalt",
+            "slate",
+            "trap"
+        ],
+        "answer": "slate",
+        "id": 117
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Stainless steel resists corrosion due to",
+        "choices": [
+            "Carbon",
+            "sulfur",
+            "chromium",
+            "vanadium"
+        ],
+        "answer": "chromium",
+        "id": 118
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Earth's surface is part of the",
+        "choices": [
+            "Asthenosphere",
+            "lithosphere",
+            "benthosphere",
+            "troposphere"
+        ],
+        "answer": "lithosphere",
+        "id": 119
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Formula for calcium chloride.",
+        "choices": [
+            "CaCl2",
+            "Ca2Cl",
+            "CaCl",
+            "CaC13"
+        ],
+        "answer": "CaCl2",
+        "id": 120
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What is the chemical formula of Sulfuric acid?",
+        "choices": [
+            "HSO4",
+            "H2SO4",
+            "H3SO2",
+            "HSO2"
+        ],
+        "answer": "H2SO4",
+        "id": 121
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What is the unit of strain?",
+        "choices": [
+            "Pa",
+            "unitless",
+            "N-m",
+            "N-m/s"
+        ],
+        "answer": "unitless",
+        "id": 122
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What is the physical appearance of sodium chloride?",
+        "choices": [
+            "Silver metal",
+            "White crystal",
+            "Yellowish Gas",
+            "White metal"
+        ],
+        "answer": "White crystal",
+        "id": 123
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The second period contains how many elements?",
+        "choices": [
+            "2",
+            "4",
+            "6",
+            "8"
+        ],
+        "answer": "8",
+        "id": 124
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The zone of the atmosphere in which weather occurs is known as the",
+        "choices": [
+            "Ionosphere",
+            "mesosphere",
+            "troposphere",
+            "stratosphere"
+        ],
+        "answer": "troposphere",
+        "id": 125
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What is another term for modulus of elasticity?",
+        "choices": [
+            "Bulk modulus",
+            "Shear strain",
+            "constant of elongation",
+            "Young's modulus"
+        ],
+        "answer": "Young's modulus",
+        "id": 126
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Which of the following elements are stored in oil to prevent explosions?",
+        "choices": [
+            "Lithium",
+            "actinium",
+            "ytterbium",
+            "Strontium"
+        ],
+        "answer": "Lithium",
+        "id": 127
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Which element melts in your hand like chocolate bar?",
+        "choices": [
+            "Krypton",
+            "tantalum",
+            "strontium",
+            "cesium"
+        ],
+        "answer": "cesium",
+        "id": 128
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "In molecules of the same composition, what are the variations of atomic arrangements known as?",
+        "choices": [
+            "Polymers",
+            "monomers",
+            "isomers",
+            "crystal systems"
+        ],
+        "answer": "isomers",
+        "id": 129
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "A thin homogeneous metallic plate containing a hole is heated sufficiently to cause expansion. If the coefficient of surface expansion is linear, the area of the hole will",
+        "choices": [
+            "Increase at twice the rate as the area of the metal increases",
+            "Increases as the same rate as the area of the metal increases",
+            "Stay the same",
+            "Decrease at the same rate as the area of the metal decreases"
+        ],
+        "answer": "Increase at twice the rate as the area of the metal increases",
+        "id": 130
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Vinegar is solution of H2O and what acid?",
+        "choices": [
+            "Sulfuric acid",
+            "acetic acid",
+            "phosphoric acid",
+            "nitric acid"
+        ],
+        "answer": "acetic acid",
+        "id": 131
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The mole is a basic unit of measurement in chemistry. Which of the following is not equal to or the same as one mole of the substance indicated?",
+        "choices": [
+            "22.4 liters of nitrogen gas at STP",
+            "6.02x1023 oxygen molecules",
+            "1 g of hydrogen atoms",
+            "16 g of oxygen molecules"
+        ],
+        "answer": "16 g of oxygen molecules",
+        "id": 132
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What is force per unit area?",
+        "choices": [
+            "Work",
+            "energy",
+            "pressure",
+            "power"
+        ],
+        "answer": "pressure",
+        "id": 133
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "It is the ratio of the ultimate stress to the allowable stress.",
+        "choices": [
+            "Proportionality constant",
+            "strain",
+            "bulk modulus",
+            "factor of safety"
+        ],
+        "answer": "factor of safety",
+        "id": 134
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The area of the shear diagram of a beam between any two points on the beam is equal to the",
+        "choices": [
+            "Change in shear between the two points",
+            "Total shear beyond the two points",
+            "Change in deflection between the two points.",
+            "Change in moment between the two points"
+        ],
+        "answer": "Change in moment between the two points",
+        "id": 135
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Which of the following refrigerant is highly toxic and flammable?",
+        "choices": [
+            "NH3",
+            "C02",
+            "CO3",
+            "R-12"
+        ],
+        "answer": "NH3",
+        "id": 136
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Which of the following is the opposite of elasticity?",
+        "choices": [
+            "Rigidity",
+            "malleability",
+            "ductility",
+            "plasticity"
+        ],
+        "answer": "plasticity",
+        "id": 137
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Which of the following is added to the drinking water distribution system for disinfection?",
+        "choices": [
+            "Soda ash",
+            "Chlorine",
+            "Lime",
+            "lodine"
+        ],
+        "answer": "Chlorine",
+        "id": 138
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The linear portion of the stress-strain diagram of steel is known as the",
+        "choices": [
+            "Modulus of elongation",
+            "Plastic range",
+            "irreversible range",
+            "elastic range"
+        ],
+        "answer": "elastic range",
+        "id": 139
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What refers to chemically combined elements with definite proportions of the component elements?",
+        "choices": [
+            "Mixture",
+            "Molecule",
+            "Compound",
+            "Alloy"
+        ],
+        "answer": "Compound",
+        "id": 140
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What are considered as the \"building blocks\" for engineering materials?",
+        "choices": [
+            "Atoms",
+            "Elements",
+            "Matters",
+            "Compounds"
+        ],
+        "answer": "Atoms",
+        "id": 141
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Galvanized steel is steel product coated with",
+        "choices": [
+            "Carbon",
+            "Sulfur",
+            "Zinc",
+            "Nickel"
+        ],
+        "answer": "Zinc",
+        "id": 142
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Which of the following materials is not viscoelastic material?",
+        "choices": [
+            "Glass",
+            "Rubber",
+            "Metal",
+            "Plastic"
+        ],
+        "answer": "Metal",
+        "id": 143
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Which of these elements has the highest atomic number?",
+        "choices": [
+            "Titanium",
+            "Uranium",
+            "Radium",
+            "Plutonium"
+        ],
+        "answer": "Plutonium",
+        "id": 144
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "When a body is subjected to three mutually perpendicular stresses, of equal intensity, the ratio of direct stress to the corresponding volumetric strain is known as",
+        "choices": [
+            "Young's modulus",
+            "Modulus of Rigidity",
+            "Bulk Modulus",
+            "Poisson's ratio"
+        ],
+        "answer": "Bulk Modulus",
+        "id": 145
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "A diagram which shows the variations of the axial load for all sections of the span pf a beam, is called",
+        "choices": [
+            "Bending moment diagram",
+            "Thrust diagram",
+            "Shear force diagram",
+            "Stress diagram"
+        ],
+        "answer": "Thrust diagram",
+        "id": 146
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The ratio of the lateral strain to the linear strains is",
+        "choices": [
+            "modulus of elasticity",
+            "modulus of rigidity",
+            "bulk modulus",
+            "Poisson's ratio"
+        ],
+        "answer": "Poisson's ratio",
+        "id": 147
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "The color of zinc is:",
+        "choices": [
+            "greyish white",
+            "greenish white",
+            "blush white",
+            "yellowish white"
+        ],
+        "answer": "blush white",
+        "id": 148
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What do you call a frame work composed of members joined at their ends to form a rigid structure?",
+        "choices": [
+            "machine",
+            "truss",
+            "joist",
+            "purlin"
+        ],
+        "answer": "truss",
+        "id": 149
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Which of the following refers to the diffusion of a solvent into a stronger solution in attempt to equalize the two concentration?",
+        "choices": [
+            "purification",
+            "electrolysis",
+            "osmosis",
+            "hydrolysis"
+        ],
+        "answer": "osmosis",
+        "id": 150
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "In electrochemistry, oxidation is loss of",
+        "choices": [
+            "electron",
+            "proton",
+            "ion",
+            "liabilities"
+        ],
+        "answer": "electron",
+        "id": 151
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "It is defined as a measure of the amount of negative ions in the water",
+        "choices": [
+            "Alkalinity",
+            "Turbidity",
+            "Acidity",
+            "Solubility"
+        ],
+        "answer": "Alkalinity",
+        "id": 152
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What is the term used to describe hydrocarbons containing single covalent bonds between carbon atoms.",
+        "choices": [
+            "alkenes",
+            "alkynes",
+            "alkanes",
+            "allotrope"
+        ],
+        "answer": "alkanes",
+        "id": 153
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "What do you call the treating of an ore with aqueous reagent to dissolve component selectively",
+        "choices": [
+            "calcinations",
+            "leaching",
+            "roasting",
+            "smelting"
+        ],
+        "answer": "leaching",
+        "id": 154
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Which one of the following elements has the largest atomic radius?",
+        "choices": [
+            "lithium",
+            "sodium",
+            "beryllium",
+            "magnesium"
+        ],
+        "answer": "sodium",
+        "id": 155
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Which of the following is a member of the Halogen family?",
+        "choices": [
+            "sodium",
+            "fluorine",
+            "phosphorus",
+            "hydrogen"
+        ],
+        "answer": "fluorine",
+        "id": 156
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Relation between volume and temperature at constant pressure",
+        "choices": [
+            "Boyle's law",
+            "Charles's law",
+            "Henry's law",
+            "Gay Lussac's law"
+        ],
+        "answer": "Charles's law",
+        "id": 157
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Silicate mineral having the characteristic properties of fibrous structure and fire resistance",
+        "choices": [
+            "graphite",
+            "silicon",
+            "asbestos",
+            "ceramic"
+        ],
+        "answer": "asbestos",
+        "id": 158
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "Following the production of condensation of a region are formed in which the pressure are lower than the equilibrium value.",
+        "choices": [
+            "Reflection",
+            "rarefaction",
+            "refraction",
+            "convection"
+        ],
+        "answer": "rarefaction",
+        "id": 159
+    },
+    {
+        "topic_name": "ESAS_CHEMISTRY_MATERIALS",
+        "question_text": "During chemical reactions, between atoms are broken and new bonds are usually formed. What do you call the starting substance?",
+        "choices": [
+            "catalyst",
+            "product",
+            "ingredients",
+            "reactants"
+        ],
+        "answer": "reactants",
+        "id": 160
     }
 ]
