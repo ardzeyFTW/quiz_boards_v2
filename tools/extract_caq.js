@@ -8,7 +8,7 @@ const OUTPUT_FILE = path.join(__dirname, '../public/caq_questions.json');
 let allQuestions = [];
 let globalId = 0;
 
-function parseQuzFile(content, topicName) {
+function parseQuzFile(content, category, subCategory) {
     // The format is essentially separated by ">><<" between questions
     const rawQuestions = content.split('>><<');
     let extractedCount = 0;
@@ -54,7 +54,8 @@ function parseQuzFile(content, topicName) {
 
         if (questionText && answer && choices.length > 0) {
             allQuestions.push({
-                topic_name: topicName,
+                category: category,
+                sub_category: subCategory,
                 question_text: questionText,
                 choices: choices,
                 answer: answer
@@ -77,14 +78,29 @@ function processDirectory(directory) {
         } else if (file.endsWith('.quiz')) {
             console.log(`Processing: ${file}`);
             try {
-                // Determine topic name from the parent folder of the file
-                // If it's directly in CAQ FILES, we use CAQ_General
-                const parentFolder = path.basename(path.dirname(fullPath));
-                let topicName = parentFolder === 'CAQ FILES' ? 'CAQ_General' : parentFolder;
+                const relativePath = path.relative(CAQ_DIR, fullPath);
+                const pathParts = relativePath.split(path.sep);
                 
-                // Clean up topic name for display (uppercase, underscores instead of spaces, remove special chars)
-                topicName = topicName.toUpperCase().replace(/[^A-Z0-9]/g, '_').replace(/_+/g, '_');
+                let categoryName = "GENERAL";
+                let subCategoryName = "UNCLASSIFIED";
                 
+                if (pathParts.length >= 1) {
+                    categoryName = pathParts[0].toUpperCase().replace(/[^A-Z0-9]/g, '_').replace(/_+/g, '_');
+                }
+                
+                if (pathParts.length >= 3) {
+                    subCategoryName = pathParts[1].toUpperCase().replace(/[^A-Z0-9 ]/g, '_').replace(/_+/g, '_');
+                } else if (pathParts.length === 2) {
+                    subCategoryName = path.basename(pathParts[1], '.quiz').toUpperCase().replace(/[^A-Z0-9 ]/g, '_').replace(/_+/g, '_');
+                }
+                
+                // Keep spaces for subCategoryName display purposes, just uppercase it
+                if (pathParts.length >= 3) {
+                    subCategoryName = pathParts[1].toUpperCase().replace(/_/g, ' ');
+                } else if (pathParts.length === 2) {
+                    subCategoryName = path.basename(pathParts[1], '.quiz').toUpperCase().replace(/_/g, ' ');
+                }
+
                 // Unzip
                 const zip = new AdmZip(fullPath);
                 const zipEntries = zip.getEntries();
@@ -94,8 +110,8 @@ function processDirectory(directory) {
                     if (zipEntry.entryName === 'tempQuz.quz') {
                         foundQuz = true;
                         const content = zipEntry.getData().toString('utf8');
-                        const count = parseQuzFile(content, topicName);
-                        console.log(`  -> Extracted ${count} questions under topic ${topicName}`);
+                        const count = parseQuzFile(content, categoryName, subCategoryName);
+                        console.log(`  -> Extracted ${count} questions under [${categoryName}] ${subCategoryName}`);
                         break;
                     }
                 }

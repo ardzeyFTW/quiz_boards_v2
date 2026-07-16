@@ -170,108 +170,176 @@ document.addEventListener('DOMContentLoaded', () => {
         renderTopics(); // Refresh topic cards to show current mode's stats
     });
 
+    let categoriesMap = new Map();
+
     function processTopics() {
         topicsMap.clear();
+        categoriesMap.clear();
         
-        let tempMap = new Map();
-        allQuestions.forEach(q => {
-            if (!tempMap.has(q.topic_name)) {
-                tempMap.set(q.topic_name, []);
-            }
-            tempMap.get(q.topic_name).push(q);
-        });
-
-        tempMap.forEach((questions, topicName) => {
-            let chunks = [];
-            for (let i = 0; i < questions.length; i += 50) {
-                chunks.push(questions.slice(i, i + 50));
-            }
-            topicsMap.set(topicName, chunks);
-        });
+        if (currentBank === 'standard') {
+            let tempMap = new Map();
+            allQuestions.forEach(q => {
+                if (!tempMap.has(q.topic_name)) tempMap.set(q.topic_name, []);
+                tempMap.get(q.topic_name).push(q);
+            });
+            tempMap.forEach((questions, topicName) => {
+                let chunks = [];
+                for (let i = 0; i < questions.length; i += 50) chunks.push(questions.slice(i, i + 50));
+                topicsMap.set(topicName, chunks);
+            });
+        } else {
+            let tempCatMap = new Map();
+            allQuestions.forEach(q => {
+                let cat = q.category || 'UNCATEGORIZED';
+                let subcat = q.sub_category || 'GENERAL';
+                if (!tempCatMap.has(cat)) tempCatMap.set(cat, new Map());
+                if (!tempCatMap.get(cat).has(subcat)) tempCatMap.get(cat).set(subcat, []);
+                tempCatMap.get(cat).get(subcat).push(q);
+            });
+            tempCatMap.forEach((subcatMap, catName) => {
+                let processedSubcatMap = new Map();
+                subcatMap.forEach((questions, subcatName) => {
+                    let chunks = [];
+                    for (let i = 0; i < questions.length; i += 50) chunks.push(questions.slice(i, i + 50));
+                    processedSubcatMap.set(subcatName, chunks);
+                    topicsMap.set(subcatName, chunks);
+                });
+                categoriesMap.set(catName, processedSubcatMap);
+            });
+        }
 
         renderTopics();
     }
 
+    function createTopicCard(topicName, quizzes) {
+        const card = document.createElement('div');
+        card.className = 'topic-card';
+        card.style.position = 'relative';
+        let displayName = topicName.replace(/_/g, ' ');
+        
+        let totalQuestions = quizzes.reduce((sum, q) => sum + q.length, 0);
+        let scoreText = '';
+        
+        let savedSessionStr = localStorage.getItem(ACTIVE_SESSION_KEY);
+        let savedSession = savedSessionStr ? JSON.parse(savedSessionStr) : null;
+
+        if (isMasteryMode) {
+            let topicMasteryData = masteryScoresData[topicName] || {};
+            let masteredQuestionsCount = 0;
+            Object.keys(topicMasteryData).forEach(quizIndex => {
+                masteredQuestionsCount += quizzes[quizIndex].length;
+            });
+            let masteredPercentage = Math.round((masteredQuestionsCount / totalQuestions) * 100);
+            let isActiveHere = savedSession && savedSession.topicName === topicName && savedSession.mode === 'mastery';
+            
+            if (masteredQuestionsCount > 0) {
+                scoreText = `<p class="score-badge">Mastered: ${masteredPercentage}%</p>`;
+            } else if (isActiveHere) {
+                let currentMasteryPoints = 0;
+                Object.values(savedSession.masteryTracking).forEach(val => currentMasteryPoints += val);
+                let percentage = Math.round((currentMasteryPoints / savedSession.totalMasteryRequired) * 100);
+                scoreText = `<p class="score-badge untouched" style="color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); background: rgba(251, 191, 36, 0.1);">In Progress: ${percentage}%</p>`;
+            } else {
+                scoreText = `<p class="score-badge untouched">Not mastered</p>`;
+            }
+        } else {
+            let topicScoreData = scoresData[topicName] || {};
+            let answeredScore = 0;
+            let answeredTotal = 0; 
+            
+            Object.values(topicScoreData).forEach(quizScore => {
+                answeredScore += quizScore.score;
+                answeredTotal += quizScore.total;
+            });
+            
+            let isActiveHere = savedSession && savedSession.topicName === topicName && savedSession.mode === 'speedrun';
+
+            if (answeredTotal > 0) {
+                scoreText = `<p class="score-badge">Score: ${answeredScore}/${totalQuestions} (${Math.round((answeredScore / totalQuestions) * 100)}%)</p>`;
+            } else if (isActiveHere) {
+                scoreText = `<p class="score-badge untouched" style="color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); background: rgba(251, 191, 36, 0.1);">In Progress: Q${savedSession.currentQuestionIndex + 1}/${savedSession.currentQuizQuestions.length}</p>`;
+            } else {
+                scoreText = `<p class="score-badge untouched">Not started</p>`;
+            }
+        }
+
+        card.innerHTML = `
+            <button class="reset-btn" title="Reset Topic Score">↺</button>
+            <h3>${displayName}</h3>
+            <p style="color:var(--text-muted); font-size:0.9rem; margin-top:0.5rem;">${totalQuestions} Questions (${quizzes.length} Parts)</p>
+            ${scoreText}
+        `;
+        
+        const resetBtn = card.querySelector('.reset-btn');
+        resetBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            showConfirmModal(`Are you sure you want to reset your score for ${displayName}?`, () => {
+                clearSession(topicName);
+                if (isMasteryMode) {
+                    delete masteryScoresData[topicName];
+                    localStorage.setItem('quizMasteryScores', JSON.stringify(masteryScoresData));
+                } else {
+                    delete scoresData[topicName];
+                    localStorage.setItem('quizScores', JSON.stringify(scoresData));
+                }
+                renderTopics();
+            });
+        });
+
+        card.addEventListener('click', () => showSubtopics(topicName));
+        return card;
+    }
+
     function renderTopics() {
         topicContainer.innerHTML = '';
-        topicsMap.forEach((quizzes, topicName) => {
-            const card = document.createElement('div');
-            card.className = 'topic-card';
-            card.style.position = 'relative';
-            let displayName = topicName.replace(/_/g, ' ');
-            
-            let totalQuestions = quizzes.reduce((sum, q) => sum + q.length, 0);
-            let scoreText = '';
-            
-            let savedSessionStr = localStorage.getItem(ACTIVE_SESSION_KEY);
-            let savedSession = savedSessionStr ? JSON.parse(savedSessionStr) : null;
-
-            if (isMasteryMode) {
-                let topicMasteryData = masteryScoresData[topicName] || {};
-                let masteredQuestionsCount = 0;
-                Object.keys(topicMasteryData).forEach(quizIndex => {
-                    masteredQuestionsCount += quizzes[quizIndex].length;
-                });
-                let masteredPercentage = Math.round((masteredQuestionsCount / totalQuestions) * 100);
-                let isActiveHere = savedSession && savedSession.topicName === topicName && savedSession.mode === 'mastery';
-                
-                if (masteredQuestionsCount > 0) {
-                    scoreText = `<p class="score-badge">Mastered: ${masteredPercentage}%</p>`;
-                } else if (isActiveHere) {
-                    let currentMasteryPoints = 0;
-                    Object.values(savedSession.masteryTracking).forEach(val => currentMasteryPoints += val);
-                    let percentage = Math.round((currentMasteryPoints / savedSession.totalMasteryRequired) * 100);
-                    scoreText = `<p class="score-badge untouched" style="color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); background: rgba(251, 191, 36, 0.1);">In Progress: ${percentage}%</p>`;
-                } else {
-                    scoreText = `<p class="score-badge untouched">Not mastered</p>`;
-                }
-            } else {
-                let topicScoreData = scoresData[topicName] || {};
-                let answeredScore = 0;
-                let answeredTotal = 0; 
-                
-                Object.values(topicScoreData).forEach(quizScore => {
-                    answeredScore += quizScore.score;
-                    answeredTotal += quizScore.total;
-                });
-                
-                let isActiveHere = savedSession && savedSession.topicName === topicName && savedSession.mode === 'speedrun';
-
-                if (answeredTotal > 0) {
-                    scoreText = `<p class="score-badge">Score: ${answeredScore}/${totalQuestions} (${Math.round((answeredScore / totalQuestions) * 100)}%)</p>`;
-                } else if (isActiveHere) {
-                    scoreText = `<p class="score-badge untouched" style="color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); background: rgba(251, 191, 36, 0.1);">In Progress: Q${savedSession.currentQuestionIndex + 1}/${savedSession.currentQuizQuestions.length}</p>`;
-                } else {
-                    scoreText = `<p class="score-badge untouched">Not started</p>`;
-                }
-            }
-
-            card.innerHTML = `
-                <button class="reset-btn" title="Reset Topic Score">↺</button>
-                <h3>${displayName}</h3>
-                <p style="color:var(--text-muted); font-size:0.9rem; margin-top:0.5rem;">${totalQuestions} Questions (${quizzes.length} Parts)</p>
-                ${scoreText}
-            `;
-            
-            const resetBtn = card.querySelector('.reset-btn');
-            resetBtn.addEventListener('click', (e) => {
-                e.stopPropagation();
-                showConfirmModal(`Are you sure you want to reset your score for ${displayName}?`, () => {
-                    clearSession(topicName);
-                    if (isMasteryMode) {
-                        delete masteryScoresData[topicName];
-                        localStorage.setItem('quizMasteryScores', JSON.stringify(masteryScoresData));
-                    } else {
-                        delete scoresData[topicName];
-                        localStorage.setItem('quizScores', JSON.stringify(scoresData));
-                    }
-                    renderTopics();
-                });
+        
+        if (currentBank === 'standard') {
+            topicsMap.forEach((quizzes, topicName) => {
+                topicContainer.appendChild(createTopicCard(topicName, quizzes));
             });
-
-            card.addEventListener('click', () => showSubtopics(topicName));
-            topicContainer.appendChild(card);
-        });
+        } else {
+            // Render Drawer UI for CAQ
+            let drawerStates = JSON.parse(localStorage.getItem('quizDrawerStates')) || {};
+            
+            categoriesMap.forEach((subcatMap, catName) => {
+                const drawer = document.createElement('div');
+                drawer.className = 'drawer-container';
+                
+                const header = document.createElement('div');
+                header.className = 'drawer-header glass-panel';
+                let isCollapsed = drawerStates[catName] !== undefined ? drawerStates[catName] : true;
+                
+                let subcatCount = subcatMap.size;
+                header.innerHTML = `
+                    <h2 class="drawer-title">${catName}</h2>
+                    <span class="drawer-subtitle">${subcatCount} Test Categories</span>
+                    <span class="drawer-icon" style="transform: ${isCollapsed ? 'rotate(0deg)' : 'rotate(180deg)'}">▼</span>
+                `;
+                
+                const content = document.createElement('div');
+                content.className = 'drawer-content grid-container';
+                if (isCollapsed) {
+                    content.style.display = 'none';
+                }
+                
+                header.addEventListener('click', () => {
+                    isCollapsed = !isCollapsed;
+                    drawerStates[catName] = isCollapsed;
+                    localStorage.setItem('quizDrawerStates', JSON.stringify(drawerStates));
+                    
+                    header.querySelector('.drawer-icon').style.transform = isCollapsed ? 'rotate(0deg)' : 'rotate(180deg)';
+                    content.style.display = isCollapsed ? 'none' : 'grid';
+                });
+                
+                subcatMap.forEach((quizzes, subcatName) => {
+                    content.appendChild(createTopicCard(subcatName, quizzes));
+                });
+                
+                drawer.appendChild(header);
+                drawer.appendChild(content);
+                topicContainer.appendChild(drawer);
+            });
+        }
     }
 
     function showSubtopics(topicName) {

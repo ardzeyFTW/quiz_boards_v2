@@ -96,6 +96,54 @@ header p {
     gap: 1.5rem;
 }
 
+.drawer-container {
+    grid-column: 1 / -1;
+    margin-bottom: 1rem;
+}
+
+.drawer-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.drawer-header:hover {
+    border-color: var(--primary);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 0 15px rgba(99, 102, 241, 0.3);
+}
+
+.drawer-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 0;
+}
+
+.drawer-subtitle {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-left: 1rem;
+    flex-grow: 1;
+}
+
+.drawer-icon {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    transition: transform 0.3s ease;
+}
+
+.drawer-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+}
+
 .topic-card {
     background: var(--bg-card);
     border: 1px solid var(--glass-border);
