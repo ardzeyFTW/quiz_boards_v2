@@ -1,8 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     let standardQuestions = [];
-    let caqQuestions = [];
     let allQuestions = [];
-    let currentBank = 'standard';
+    let currentBank = 'caq';
     
     let topicsMap = new Map(); 
     let currentTopicName = '';
@@ -120,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
         standardQuestions = standardData.map(q => ({ ...q, id: globalId++ }));
         caqQuestions = caqData.map(q => ({ ...q, id: globalId++ }));
         
-        allQuestions = standardQuestions;
+        allQuestions = caqQuestions;
         processTopics();
     }).catch(err => {
         console.error('Error loading questions:', err);
@@ -310,9 +309,53 @@ document.addEventListener('DOMContentLoaded', () => {
                 let isCollapsed = drawerStates[catName] !== undefined ? drawerStates[catName] : true;
                 
                 let subcatCount = subcatMap.size;
+                
+                // Calculate Category Level Score/Mastery
+                let catTotalQuestions = 0;
+                let catMasteredCount = 0;
+                let catAnsweredScore = 0;
+                
+                subcatMap.forEach((quizzes, subcatName) => {
+                    let totalQ = quizzes.reduce((sum, q) => sum + q.length, 0);
+                    catTotalQuestions += totalQ;
+                    
+                    if (isMasteryMode) {
+                        let topicMasteryData = masteryScoresData[subcatName] || {};
+                        Object.keys(topicMasteryData).forEach(quizIndex => {
+                            catMasteredCount += quizzes[quizIndex].length;
+                        });
+                    } else {
+                        let topicScoreData = scoresData[subcatName] || {};
+                        Object.values(topicScoreData).forEach(quizScore => {
+                            catAnsweredScore += quizScore.score;
+                        });
+                    }
+                });
+                
+                let catScoreHtml = '';
+                if (catTotalQuestions > 0) {
+                    if (isMasteryMode) {
+                        let masteredPercentage = Math.round((catMasteredCount / catTotalQuestions) * 100);
+                        if (masteredPercentage > 0) {
+                            catScoreHtml = `<span class="score-badge" style="margin-top: 0; margin-left: 1rem; padding: 0.2rem 0.6rem; font-size: 0.75rem;">Mastered: ${masteredPercentage}%</span>`;
+                        } else {
+                            catScoreHtml = `<span class="score-badge untouched" style="margin-top: 0; margin-left: 1rem; padding: 0.2rem 0.6rem; font-size: 0.75rem;">Not mastered</span>`;
+                        }
+                    } else {
+                        if (catAnsweredScore > 0) {
+                            catScoreHtml = `<span class="score-badge" style="margin-top: 0; margin-left: 1rem; padding: 0.2rem 0.6rem; font-size: 0.75rem;">Score: ${Math.round((catAnsweredScore / catTotalQuestions) * 100)}%</span>`;
+                        } else {
+                            catScoreHtml = `<span class="score-badge untouched" style="margin-top: 0; margin-left: 1rem; padding: 0.2rem 0.6rem; font-size: 0.75rem;">Not started</span>`;
+                        }
+                    }
+                }
+                
                 header.innerHTML = `
-                    <h2 class="drawer-title">${catName}</h2>
-                    <span class="drawer-subtitle">${subcatCount} Test Categories</span>
+                    <div style="display: flex; align-items: center;">
+                        <h2 class="drawer-title">${catName}</h2>
+                        <span class="drawer-subtitle">${subcatCount} Test Categories</span>
+                        ${catScoreHtml}
+                    </div>
                     <span class="drawer-icon" style="transform: ${isCollapsed ? 'rotate(0deg)' : 'rotate(180deg)'}">▼</span>
                 `;
                 

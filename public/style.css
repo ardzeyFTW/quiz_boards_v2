@@ -105,12 +105,12 @@ header p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 2rem;
+    padding: 1rem 1.5rem;
     cursor: pointer;
     border-radius: 1rem;
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .drawer-header:hover {
@@ -119,7 +119,7 @@ header p {
 }
 
 .drawer-title {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
     color: var(--primary);
     margin: 0;
