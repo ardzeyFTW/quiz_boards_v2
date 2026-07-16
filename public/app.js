@@ -305,7 +305,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 drawer.className = 'drawer-container';
                 
                 const header = document.createElement('div');
-                header.className = 'drawer-header glass-panel';
+                header.className = 'drawer-header';
                 let isCollapsed = drawerStates[catName] !== undefined ? drawerStates[catName] : true;
                 
                 let subcatCount = subcatMap.size;
@@ -351,12 +351,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 
                 header.innerHTML = `
-                    <div style="display: flex; align-items: center;">
-                        <h2 class="drawer-title">${catName}</h2>
-                        <span class="drawer-subtitle">${subcatCount} Test Categories</span>
+                    <div style="display: flex; align-items: center; overflow: hidden; padding-right: 0.5rem;">
+                        <h2 class="drawer-title" style="white-space: nowrap;">${catName}</h2>
+                        <span class="drawer-subtitle" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${subcatCount} Tests</span>
                         ${catScoreHtml}
                     </div>
-                    <span class="drawer-icon" style="transform: ${isCollapsed ? 'rotate(0deg)' : 'rotate(180deg)'}">▼</span>
+                    <span class="drawer-icon" style="transform: ${isCollapsed ? 'rotate(0deg)' : 'rotate(180deg)'}; flex-shrink: 0;">▼</span>
                 `;
                 
                 const content = document.createElement('div');

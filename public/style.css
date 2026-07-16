@@ -217,9 +217,30 @@ header p {
     border-radius: 2rem;
     font-size: 0.85rem;
     font-weight: 600;
+    white-space: nowrap;
     background: rgba(16, 185, 129, 0.15);
     color: #34d399;
     border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+@media (max-width: 600px) {
+    .drawer-header {
+        padding: 0.5rem 1rem;
+    }
+    
+    .drawer-title {
+        font-size: 1rem;
+    }
+    
+    .drawer-subtitle {
+        font-size: 0.8rem;
+        margin-left: 0.5rem;
+    }
+    
+    .score-badge {
+        font-size: 0.7rem !important;
+        padding: 0.2rem 0.5rem !important;
+    }
 }
 
 .score-badge.untouched {
