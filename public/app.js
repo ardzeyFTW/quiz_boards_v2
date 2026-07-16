@@ -1,5 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
+    let standardQuestions = [];
+    let caqQuestions = [];
     let allQuestions = [];
+    let currentBank = 'standard';
+    
     let topicsMap = new Map(); 
     let currentTopicName = '';
     let currentQuizIndex = 0;
@@ -104,18 +108,40 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    const btnBankStandard = document.getElementById('btn-bank-standard');
+    const btnBankCaq = document.getElementById('btn-bank-caq');
+
     // Fetch data
-    fetch('extracted_questions.json', { cache: 'no-cache' })
-        .then(response => response.json())
-        .then(data => {
-            let globalId = 0;
-            allQuestions = data.map(q => ({ ...q, id: globalId++ }));
-            processTopics();
-        })
-        .catch(err => {
-            console.error('Error loading questions:', err);
-            topicContainer.innerHTML = `<p style="color:var(--wrong); grid-column: 1/-1; text-align: center;">Failed to load questions. Please ensure you are viewing this via a local web server (e.g., VS Code Live Server or Python http.server) due to browser CORS policies.</p>`;
-        });
+    Promise.all([
+        fetch('extracted_questions.json', { cache: 'no-cache' }).then(res => res.json()).catch(err => { console.error(err); return []; }),
+        fetch('caq_questions.json', { cache: 'no-cache' }).then(res => res.json()).catch(err => { console.error(err); return []; })
+    ]).then(([standardData, caqData]) => {
+        let globalId = 0;
+        standardQuestions = standardData.map(q => ({ ...q, id: globalId++ }));
+        caqQuestions = caqData.map(q => ({ ...q, id: globalId++ }));
+        
+        allQuestions = standardQuestions;
+        processTopics();
+    }).catch(err => {
+        console.error('Error loading questions:', err);
+        topicContainer.innerHTML = `<p style="color:var(--wrong); grid-column: 1/-1; text-align: center;">Failed to load questions. Please ensure you are viewing this via a local web server.</p>`;
+    });
+
+    btnBankStandard.addEventListener('click', () => {
+        currentBank = 'standard';
+        btnBankStandard.classList.add('active');
+        btnBankCaq.classList.remove('active');
+        allQuestions = standardQuestions;
+        processTopics();
+    });
+
+    btnBankCaq.addEventListener('click', () => {
+        currentBank = 'caq';
+        btnBankCaq.classList.add('active');
+        btnBankStandard.classList.remove('active');
+        allQuestions = caqQuestions;
+        processTopics();
+    });
 
     modeToggle.checked = isMasteryMode;
 

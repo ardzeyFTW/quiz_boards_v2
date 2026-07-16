@@ -126,6 +126,38 @@ header p {
     color: var(--text-muted);
 }
 
+.bank-toggle-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.bank-tab {
+    background: var(--bg-card);
+    border: 1px solid var(--glass-border);
+    color: var(--text-muted);
+    padding: 0.8rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.bank-tab:hover {
+    background: rgba(99, 102, 241, 0.1);
+    color: var(--text-main);
+}
+
+.bank-tab.active {
+    background: rgba(99, 102, 241, 0.2);
+    color: var(--primary);
+    border-color: var(--primary);
+    box-shadow: 0 0 10px rgba(99, 102, 241, 0.2);
+}
+
 .score-badge {
     display: inline-block;
     margin-top: 1rem;
