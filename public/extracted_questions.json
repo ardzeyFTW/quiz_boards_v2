@@ -13115,5 +13115,5225 @@
         ],
         "answer": "reactants",
         "id": 160
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is a combination of two or more materials that has properties that the components materials do not have by themselves?",
+        "choices": [
+            "Compound",
+            "Composite",
+            "Mixture",
+            "Matrix"
+        ],
+        "answer": "Composite",
+        "id": 161
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is a reference sheet for the elements that can be used to form engineering materials?",
+        "choices": [
+            "Periodic Table",
+            "Truth Table",
+            "Building blocks of Materials",
+            "Structure of Materials"
+        ],
+        "answer": "Periodic Table",
+        "id": 162
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What physical property of a material refers to the point at which a material liquefies on heating or solidifies on cooling?",
+        "choices": [
+            "Melting point",
+            "Curie point",
+            "Refractive index",
+            "Specific heat"
+        ],
+        "answer": "Melting point",
+        "id": 163
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What physical property of a material refers to the temperature at which ferromagnetic materials can no longer be magnetized by outside forces?",
+        "choices": [
+            "Melting point",
+            "Thermal conductivity",
+            "Thermal expansion",
+            "Curie point"
+        ],
+        "answer": "Curie point",
+        "id": 164
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What physical property of a material refers to the amount of weight gain (%) experienced in a polymer after immersion in water?",
+        "choices": [
+            "Dielectric strength",
+            "Electric resistivity",
+            "Water absorption",
+            "Thermal conductivity"
+        ],
+        "answer": "Water absorption",
+        "id": 165
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What physical property of a material refers to the rate of heat flow per unit time in a homogenous material under steady-state conditions...",
+        "choices": [
+            "Thermal expansion",
+            "Thermal conductivity",
+            "Heat distortion temperature",
+            "Water absorption"
+        ],
+        "answer": "Thermal conductivity",
+        "id": 166
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What physical property of a material refers to the highest potential difference that an insulating material can withstand without electrical breakdown?",
+        "choices": [
+            "Thermal expansion",
+            "Conductivity",
+            "Dielectric strength",
+            "Electrical resistivity"
+        ],
+        "answer": "Dielectric strength",
+        "id": 167
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What physical property of a material refers to the ratio of the amount of heat required to raise the temperature of a unit mass of a substance 1 degree to that of water?",
+        "choices": [
+            "Specific heat",
+            "Latent heat",
+            "Heat of fusion",
+            "Heat of fission"
+        ],
+        "answer": "Specific heat",
+        "id": 168
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What physical property of a material refers to the temperature at which a polymer under a specified load shows a specified amount of deflection?",
+        "choices": [
+            "Curie temperature",
+            "Specific heat",
+            "Heat distortion temperature",
+            "Thermal conductivity"
+        ],
+        "answer": "Heat distortion temperature",
+        "id": 169
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What mechanical property of a material refers to the nominal stress at fracture in a tension test at constant load and constant temperature?",
+        "choices": [
+            "Creep strength",
+            "Stress rupture strength",
+            "Compressive yield strength",
+            "Hardness"
+        ],
+        "answer": "Stress rupture strength",
+        "id": 170
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What mechanical property of a material refers to the resistance to plastic deformation?",
+        "choices": [
+            "Rigidity",
+            "Plasticity",
+            "Ductility",
+            "Hardness"
+        ],
+        "answer": "Hardness",
+        "id": 171
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is obtained by repeatedly loading a specimen at given stress levels until it fails?",
+        "choices": [
+            "Elastic limit",
+            "Endurance limit or fatigue strength",
+            "Creep",
+            "All of the choices"
+        ],
+        "answer": "Endurance limit or fatigue strength",
+        "id": 172
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What dimensional property of a material refers to the deviation from edge straightness?",
+        "choices": [
+            "Lay",
+            "Out of flat",
+            "Camber",
+            "Waviness"
+        ],
+        "answer": "Camber",
+        "id": 173
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What dimensional property of a material refers to a wavelike variation from a perfect surface...?",
+        "choices": [
+            "Lay",
+            "Waviness",
+            "surface finish",
+            "Out of flat"
+        ],
+        "answer": "Waviness",
+        "id": 174
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is a polymer production process that involves forming a polymer chain containing two different monomers?",
+        "choices": [
+            "Copolymerization",
+            "Blending",
+            "Alloying",
+            "Cross-linking"
+        ],
+        "answer": "Copolymerization",
+        "id": 175
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is a process of forming continuous shapes by forcing a molten polymer through a metal die?",
+        "choices": [
+            "Calendaring",
+            "Thermoforming",
+            "Lithography",
+            "Extrusion"
+        ],
+        "answer": "Extrusion",
+        "id": 176
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What chemical property of a material refers to its ability to resist deterioration by chemical or electrochemical reactions?",
+        "choices": [
+            "Stereo specificity",
+            "Corrosion resistance",
+            "Conductivity",
+            "Electrical resistance"
+        ],
+        "answer": "Corrosion resistance",
+        "id": 177
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the amount of energy required to fracture a given volume of material?",
+        "choices": [
+            "Impact strength",
+            "Endurance limit",
+            "Creep strength",
+            "Stress rupture strength"
+        ],
+        "answer": "Impact strength",
+        "id": 178
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What mechanical property of a material is a time-dependent permanent strain under stress?",
+        "choices": [
+            "Elongation",
+            "Elasticity",
+            "Creep",
+            "Rupture"
+        ],
+        "answer": "Creep",
+        "id": 179
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What refers to the stress at which a material exhibits a specified deviation from proportionality of stress and strain?",
+        "choices": [
+            "Tensile strength",
+            "shear strength",
+            "Yield strength",
+            "Flexural strength"
+        ],
+        "answer": "Yield strength",
+        "id": 180
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The greatest stress which a material is capable of withstanding without a deviation from acceptable proportionality of stress to strain is called",
+        "choices": [
+            "Elongation",
+            "proportional limit",
+            "yield point",
+            "elastic limit"
+        ],
+        "answer": "proportional limit",
+        "id": 181
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the maximum stress below which a material can theoretically endure an infinite number of stress cycles?",
+        "choices": [
+            "Endurance state",
+            "Endurance test",
+            "Endurance limit",
+            "endurance strength"
+        ],
+        "answer": "Endurance limit",
+        "id": 182
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Which of the following is a natural magnet?",
+        "choices": [
+            "Steel",
+            "Magnesia",
+            "Lodestone",
+            "Soft iron"
+        ],
+        "answer": "Lodestone",
+        "id": 183
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the resistance of a material to plastic deformation?",
+        "choices": [
+            "Hardness",
+            "Stiffness",
+            "Creepage",
+            "Rigidity"
+        ],
+        "answer": "Hardness",
+        "id": 184
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Which of the following materials has permeability slightly less than that of free space?",
+        "choices": [
+            "Paramagnetic materials",
+            "Non-magnetic materials",
+            "Ferromagnetic materials",
+            "Diamagnetic materials"
+        ],
+        "answer": "Diamagnetic materials",
+        "id": 185
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What materials have permeabilities slightly greater than that of free space?",
+        "choices": [
+            "Paramagnetic materials",
+            "Non-magnetic materials",
+            "Ferromagnetic materials",
+            "Diamagnetic materials"
+        ],
+        "answer": "Paramagnetic materials",
+        "id": 186
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Which of the materials have very high permeabilities?",
+        "choices": [
+            "Paramagnetic materials",
+            "Non-magnetic materials",
+            "Ferromagnetic materials",
+            "Diamagnetic materials"
+        ],
+        "answer": "Ferromagnetic materials",
+        "id": 187
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What contains as an essential ingredient an organic substance of large molecular weight, is solid in its finished state, and can be shaped by flow?",
+        "choices": [
+            "Metal",
+            "Metalloid",
+            "Plastic",
+            "Ceramic"
+        ],
+        "answer": "Plastic",
+        "id": 188
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Some polymeric materials such as epoxies are formed by strong primary chemical bonds called",
+        "choices": [
+            "Metallic bond",
+            "Van der Waals bond",
+            "Cross linking",
+            "Covalent bond"
+        ],
+        "answer": "Cross linking",
+        "id": 189
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "A large molecule with two alternating mers is called as",
+        "choices": [
+            "monomer",
+            "elastomer",
+            "mers",
+            "copolymer or interpolymer"
+        ],
+        "answer": "copolymer or interpolymer",
+        "id": 190
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What term is used to describe a polymer that has rubberlike properties?",
+        "choices": [
+            "Vulcanizer",
+            "Elasticmer",
+            "Polychloroprene",
+            "Elastomer"
+        ],
+        "answer": "Elastomer",
+        "id": 191
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is defined as an alloy of iron and carbon, with the carbon being restricted within certain concentration limits?",
+        "choices": [
+            "Steel",
+            "Wrought Iron",
+            "Cast Iron",
+            "Tendons"
+        ],
+        "answer": "Steel",
+        "id": 192
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What type of steel has carbon as its principal hardening agent?",
+        "choices": [
+            "Alloy steel",
+            "Stainless steel",
+            "Galvanized steel",
+            "Carbon steel"
+        ],
+        "answer": "Carbon steel",
+        "id": 193
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What type of steel has 0.8% carbon and 100% pearlite?",
+        "choices": [
+            "Austenite",
+            "Eutectoid",
+            "Hyper-eutectoid",
+            "Stainless steel"
+        ],
+        "answer": "Eutectoid",
+        "id": 194
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Steels that are used for axles, gears, and similar parts requiring medium to high strength are known as?",
+        "choices": [
+            "Medium-carbon steel",
+            "Low-carbon steel",
+            "Very high-carbon",
+            "High-carbon steel"
+        ],
+        "answer": "Medium-carbon steel",
+        "id": 195
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Galvanized steels are steel products coated with",
+        "choices": [
+            "Carbon",
+            "Sulfur",
+            "Zinc",
+            "Nickel"
+        ],
+        "answer": "Zinc",
+        "id": 196
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The use of acids to remove oxides and scale on hot-worked steels is known as",
+        "choices": [
+            "Tempering",
+            "Pickling",
+            "Machining",
+            "Galvanizing"
+        ],
+        "answer": "Pickling",
+        "id": 197
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the purpose of molybdenum in steel alloying?",
+        "choices": [
+            "To increase brittleness",
+            "To increase dynamic and high-temperature strength and hardness.",
+            "To reduce brittleness, combine with sulfur",
+            "To increase corrosion and resistance"
+        ],
+        "answer": "To increase dynamic and high-temperature strength and hardness.",
+        "id": 198
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What refers to the tin mill steel, without a coating?",
+        "choices": [
+            "White plate",
+            "Tin Steel free",
+            "Black plate",
+            "Dechromate tin"
+        ],
+        "answer": "Black plate",
+        "id": 199
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What combination has high electrical resistance, high corrosion resistance, and high strength at red heat, useful in heating elements?",
+        "choices": [
+            "Aluminum bronze",
+            "Nichrome",
+            "Hastelloy",
+            "Alnico"
+        ],
+        "answer": "Nichrome",
+        "id": 200
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Which of the following cast irons is a high-carbon, iron-carbon-silicon alloy? (Typo in original prompt options, standard category is Deoxidizers/Cast iron components)",
+        "choices": [
+            "Deorizers",
+            "Deoxidizers",
+            "Deterrent",
+            "Deoxifiers"
+        ],
+        "answer": "Deoxidizers",
+        "id": 201
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Which of the following cast irons is a high-carbon-silicon alloy?",
+        "choices": [
+            "Gray iron",
+            "Malleable iron",
+            "White iron",
+            "Alloy iron"
+        ],
+        "answer": "Gray iron",
+        "id": 202
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Which of the following cast irons is heat-treated for ductility?",
+        "choices": [
+            "Gray iron",
+            "Malleable iron",
+            "White iron",
+            "Ductile iron"
+        ],
+        "answer": "Malleable iron",
+        "id": 203
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Which cast iron is hard and wear resistant?",
+        "choices": [
+            "Gray iron",
+            "Ductile iron",
+            "White iron",
+            "Malleable iron"
+        ],
+        "answer": "White iron",
+        "id": 204
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is considered as the general purpose oldest type and widely used cast iron?",
+        "choices": [
+            "Gray iron",
+            "Ductile iron",
+            "Alloy iron",
+            "Malleable iron"
+        ],
+        "answer": "Gray iron",
+        "id": 205
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Iron is said to be abundant in nature. About how many percent of the earth's crust is iron?",
+        "choices": [
+            "10%",
+            "5%",
+            "20%",
+            "8%"
+        ],
+        "answer": "5%",
+        "id": 206
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the advantage of quench hardening?",
+        "choices": [
+            "Improved strength",
+            "Hardness",
+            "Wear characteristics",
+            "All of the choices"
+        ],
+        "answer": "All of the choices",
+        "id": 207
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the lowest-temperature diffusion-hardening process and does not require a quench?",
+        "choices": [
+            "Carburizing",
+            "Tempering",
+            "Nitriding",
+            "Heat-treating"
+        ],
+        "answer": "Nitriding",
+        "id": 208
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What field of study encompasses the procurement and production of metals?",
+        "choices": [
+            "Metallurgy",
+            "Geology",
+            "Material Science",
+            "Metalgraphy"
+        ],
+        "answer": "Metallurgy",
+        "id": 209
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What do you call earth and stone mixed with the iron oxides?",
+        "choices": [
+            "Hematite",
+            "Magnetite",
+            "Gangue",
+            "Ore"
+        ],
+        "answer": "Gangue",
+        "id": 210
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is a coal that has been previously burned in an oxygen-poor environment?",
+        "choices": [
+            "Tuyere",
+            "Coke",
+            "Diamond",
+            "Hematite"
+        ],
+        "answer": "Coke",
+        "id": 211
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the most common alloying ingredient in copper?",
+        "choices": [
+            "Brass",
+            "Zinc",
+            "Nickel",
+            "Aluminum"
+        ],
+        "answer": "Zinc",
+        "id": 212
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What refers to the casehardening process by which the carbon content of the steel near the surface of a part is increased?",
+        "choices": [
+            "Carburizing",
+            "Annealing",
+            "Normalizing",
+            "Martempering"
+        ],
+        "answer": "Carburizing",
+        "id": 213
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the process of heating a hardened steel to any temperature below the lower critical temperature...?",
+        "choices": [
+            "Normalizing",
+            "Spheroidizing",
+            "Carburizing",
+            "Tempering"
+        ],
+        "answer": "Tempering",
+        "id": 214
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is defined as an intimate mechanical mixture of two or more phases having a definite composition and transformation temperature?",
+        "choices": [
+            "Pearlite",
+            "Eutectoid",
+            "Austenite",
+            "Delta solid solution"
+        ],
+        "answer": "Eutectoid",
+        "id": 215
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the most undesirable of all the elements commonly found in steels?",
+        "choices": [
+            "Sulfur",
+            "Phosphorus",
+            "Silicon",
+            "Manganese"
+        ],
+        "answer": "Phosphorus",
+        "id": 216
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is a casehardening method involving diffusion where steel is placed in an air-tight box with nitriding gases/ materials at ~1000°F?",
+        "choices": [
+            "Annealing",
+            "Normalizing",
+            "Carburizing",
+            "Nitriding"
+        ],
+        "answer": "Nitriding",
+        "id": 217
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the ratio of the maximum load in a tension test to the original cross-sectional area of the test bar?",
+        "choices": [
+            "Tensile strength",
+            "Yield strength",
+            "Shear strength",
+            "Flexural Strength"
+        ],
+        "answer": "Tensile strength",
+        "id": 218
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the ratio of stress to strain in a material loaded within its elastic range?",
+        "choices": [
+            "Poisson's ratio",
+            "Refractive index",
+            "Modulus of elasticity",
+            "Percent elongation"
+        ],
+        "answer": "Modulus of elasticity",
+        "id": 219
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is a measure of rigidity?",
+        "choices": [
+            "Stiffness",
+            "Hardness",
+            "Strength",
+            "Modulus of elasticity"
+        ],
+        "answer": "Stiffness",
+        "id": 220
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "In tensile testing, the increase in the gage length measured after the specimen fractures is called",
+        "choices": [
+            "percent elongation",
+            "creep",
+            "elasticity",
+            "elongation"
+        ],
+        "answer": "elongation",
+        "id": 221
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What impurity in steel can cause \"red shortness\", which means the steel becomes unworkable at high temperature?",
+        "choices": [
+            "Sulfur",
+            "Silicon",
+            "Manganese",
+            "Phosphorus"
+        ],
+        "answer": "Sulfur",
+        "id": 222
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is a process of producing a hard surface in a steel having high carbon content by rapid local heating and cooling?",
+        "choices": [
+            "Cyaniding",
+            "Nitriding",
+            "Flame hardening",
+            "Induction hardening"
+        ],
+        "answer": "Flame hardening",
+        "id": 223
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the common reinforcement for polymer composites?",
+        "choices": [
+            "Boron",
+            "Ceramic",
+            "Graphite",
+            "Glass fiber"
+        ],
+        "answer": "Glass fiber",
+        "id": 224
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is defined as a local corrosion damage characterized by surface cavities?",
+        "choices": [
+            "Cracking",
+            "Pitting",
+            "Cavitation",
+            "Erosion"
+        ],
+        "answer": "Pitting",
+        "id": 225
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What refers to the removal of zinc from brasses?",
+        "choices": [
+            "Dezincification",
+            "Graphitization",
+            "Stabilization",
+            "Dealloying"
+        ],
+        "answer": "Dezincification",
+        "id": 226
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the scaling off of a surface in flakes or layers as the result of corrosion?",
+        "choices": [
+            "Exfoliation",
+            "Corrosion fatigue",
+            "Scaping",
+            "Fretting"
+        ],
+        "answer": "Exfoliation",
+        "id": 227
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What are the four major alloying elements of austenitic stainless steels?",
+        "choices": [
+            "Iron, chromium, carbon and nickel",
+            "Iron, chromium, zinc and nickel",
+            "Iron, chromium, carbon and zinc",
+            "Iron, chromium, carbon and copper"
+        ],
+        "answer": "Iron, chromium, carbon and nickel",
+        "id": 228
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What refers to a shape achieved by allowing a liquid to solidify in a mold?",
+        "choices": [
+            "Casting",
+            "Molding",
+            "Forming",
+            "All of the choices"
+        ],
+        "answer": "Casting",
+        "id": 229
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What cast iron has nodular or spheroidal graphite?",
+        "choices": [
+            "Ductile iron",
+            "Wrought iron",
+            "Gray iron",
+            "White iron"
+        ],
+        "answer": "Ductile iron",
+        "id": 230
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What does ASTM stand for?",
+        "choices": [
+            "Association of Steel Testing and Materials",
+            "American Society for Testing and Materials",
+            "Asian Society for Testing and Materials",
+            "Allied Society for Testing and Materials"
+        ],
+        "answer": "American Society for Testing and Materials",
+        "id": 231
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The wear-resistance of this material is attributes to its ability to __________ when cold worked.",
+        "choices": [
+            "cold harden",
+            "stress harden",
+            "cool-temperature",
+            "strain harden"
+        ],
+        "answer": "strain harden",
+        "id": 232
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What refers to the application of any process whereby the surface of steel is altered so that it will become hard?",
+        "choices": [
+            "Carburizing",
+            "Casehardening",
+            "Annealing",
+            "Surface hardening"
+        ],
+        "answer": "Casehardening",
+        "id": 233
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What refers to the ability of steel to be hardened through to its center in large section?",
+        "choices": [
+            "Malleability",
+            "Hardenability",
+            "Spheroidability",
+            "Rigidity"
+        ],
+        "answer": "Hardenability",
+        "id": 234
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What structure is formed when transformation occurs at temperatures down to the knee of the curve?",
+        "choices": [
+            "Pearlite",
+            "Bainite",
+            "Austenite",
+            "Martensite"
+        ],
+        "answer": "Pearlite",
+        "id": 235
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What allotropic form of iron refers to iron that has a temperature range of room temperature to 1670°F?",
+        "choices": [
+            "Beta iron",
+            "Gamma iron",
+            "Delta iron",
+            "Alpha iron"
+        ],
+        "answer": "Alpha iron",
+        "id": 236
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the chief ore of tin?",
+        "choices": [
+            "Cassiterite",
+            "Bauxite",
+            "Ilmanite",
+            "Galena"
+        ],
+        "answer": "Cassiterite",
+        "id": 237
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the chief ore of zinc?",
+        "choices": [
+            "Cassiterite",
+            "Bauxite",
+            "Sphalerite",
+            "Ilmanite"
+        ],
+        "answer": "Sphalerite",
+        "id": 238
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the chief ore of titanium?",
+        "choices": [
+            "Sphalerite",
+            "Ilmanite",
+            "Bauxite",
+            "Cassiterite"
+        ],
+        "answer": "Ilmanite",
+        "id": 239
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the mixture of gibbsite and diaspore, of which aluminum is derived?",
+        "choices": [
+            "Bauxite",
+            "Rutile",
+            "Galera",
+            "Sphalerite"
+        ],
+        "answer": "Bauxite",
+        "id": 240
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The term \"brass\" is very commonly used to designate any alloy primarily of:",
+        "choices": [
+            "copper and zinc",
+            "aluminum and iron",
+            "copper and aluminum",
+            "zinc and nickel"
+        ],
+        "answer": "copper and zinc",
+        "id": 241
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the most abundant metal in nature?",
+        "choices": [
+            "Aluminum",
+            "Steel",
+            "Iron",
+            "Copper"
+        ],
+        "answer": "Aluminum",
+        "id": 242
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What steel relief process is used with hypocutectoid steels to change martenite into pearlite?",
+        "choices": [
+            "Tempering",
+            "Normalizing",
+            "Annealing",
+            "Spheroidizing"
+        ],
+        "answer": "Tempering",
+        "id": 243
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is another term for tempering?",
+        "choices": [
+            "Recrystalization",
+            "Annealing",
+            "Spheroidizing",
+            "Drawing or toughening"
+        ],
+        "answer": "Drawing or toughening",
+        "id": 244
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "All are steel surface hardening processes except one. Which one?",
+        "choices": [
+            "Carburizing",
+            "Flame hardening",
+            "Nitriding",
+            "Annealing"
+        ],
+        "answer": "Annealing",
+        "id": 245
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What type of copper alloy is used as collectors for electric generator?",
+        "choices": [
+            "yellow brass",
+            "Beryllium copper",
+            "Tin Bronze",
+            "Phosphor bronze"
+        ],
+        "answer": "yellow brass",
+        "id": 246
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the most widely used dielectric material in the electrical industry?",
+        "choices": [
+            "Polymer",
+            "Plastic",
+            "Rubber",
+            "All of the above"
+        ],
+        "answer": "Polymer",
+        "id": 247
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the widely used electrical insulator?",
+        "choices": [
+            "Plastic",
+            "Polymer",
+            "Epoxy",
+            "Paper"
+        ],
+        "answer": "Paper",
+        "id": 248
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Which material is used for dc application such as electromagnetic cores and relays?",
+        "choices": [
+            "Iron",
+            "Copper",
+            "Steel",
+            "Aluminum"
+        ],
+        "answer": "Iron",
+        "id": 249
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Which of the following is known as \"electrical steel\"?",
+        "choices": [
+            "Silicon steel",
+            "Stainless steel",
+            "Carbon steel",
+            "Cast Steel"
+        ],
+        "answer": "Silicon steel",
+        "id": 250
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What element is added to copper to increase its strength and fatigue properties?",
+        "choices": [
+            "Silicon",
+            "Aluminum",
+            "Beryllium",
+            "Zinc"
+        ],
+        "answer": "Beryllium",
+        "id": 251
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What element is added to copper to make it extremely hard?",
+        "choices": [
+            "Aluminum",
+            "Zinc",
+            "Lead",
+            "Silicon"
+        ],
+        "answer": "Aluminum",
+        "id": 252
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What element constitutes the major component of most bronzes?",
+        "choices": [
+            "Zinc",
+            "Tin",
+            "Lead",
+            "Aluminum"
+        ],
+        "answer": "Tin",
+        "id": 253
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the most common alloying ingredient in copper?",
+        "choices": [
+            "Tin",
+            "Lead",
+            "Zinc",
+            "Aluminum"
+        ],
+        "answer": "Zinc",
+        "id": 254
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The property of metals that allows them to be drawn into thin wires without rupture is called",
+        "choices": [
+            "ductility",
+            "malleability",
+            "elasticity",
+            "hardness"
+        ],
+        "answer": "ductility",
+        "id": 255
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Interaction between the surface of two closely adjacent bodies which causes them to cling together is known as",
+        "choices": [
+            "Friction",
+            "Cohesion",
+            "Adhesion",
+            "Viscosity"
+        ],
+        "answer": "Adhesion",
+        "id": 256
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The property which permits the flow of current under the action of a potential difference is called",
+        "choices": [
+            "Resistance",
+            "Permeance",
+            "Impedence",
+            "Conductance"
+        ],
+        "answer": "Conductance",
+        "id": 257
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The property of fluids by virtue of which they offer resistance to flow is known as",
+        "choices": [
+            "Gummosity",
+            "Glutinosity",
+            "Viscidity",
+            "Viscosity"
+        ],
+        "answer": "Viscosity",
+        "id": 258
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The tendency of a body to return to its original size or shape after having been deformed is called",
+        "choices": [
+            "Elastance",
+            "Elasticity",
+            "Elastivity",
+            "Anelasticity"
+        ],
+        "answer": "Elasticity",
+        "id": 259
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The emission of light by a material because of its high temperature is known as",
+        "choices": [
+            "Incandescence",
+            "Luminescence",
+            "Scintillation",
+            "Phosphorescence"
+        ],
+        "answer": "Incandescence",
+        "id": 260
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The property by virtue of which a body resists any attempt to change its state of rest or motion is called",
+        "choices": [
+            "Torpidity",
+            "Passivity",
+            "Inactivity",
+            "Inertia"
+        ],
+        "answer": "Inertia",
+        "id": 261
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "If the properties of a body are the same in all directions, it is called",
+        "choices": [
+            "Isodynamic",
+            "Isotropic",
+            "Isogonic",
+            "Isotopic"
+        ],
+        "answer": "Isotropic",
+        "id": 262
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The pressure which a substances is capable of supporting without fracturing",
+        "choices": [
+            "Shear Stress",
+            "Yield Strength",
+            "Yield Stress",
+            "Shear Modulus"
+        ],
+        "answer": "Yield Strength",
+        "id": 263
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The dimensionless parameter describing deformation",
+        "choices": [
+            "Energy",
+            "Work",
+            "Strain",
+            "Stress"
+        ],
+        "answer": "Strain",
+        "id": 264
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The general law of mechanics that stress is directly proportional to strain",
+        "choices": [
+            "Mean Speed Theorem",
+            "Poisson Ratio",
+            "Charles' Theorem",
+            "Hooke's Law"
+        ],
+        "answer": "Hooke's Law",
+        "id": 265
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the absolute value of the ratio of the transverse strain to the corresponding axial strain?",
+        "choices": [
+            "Poisson's Ratio",
+            "Euler's Ratio",
+            "Refractive index",
+            "Dielectric index"
+        ],
+        "answer": "Poisson's Ratio",
+        "id": 266
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What refers to the heat needed to change the temperature of the substances without changing its phases?",
+        "choices": [
+            "Latent heat",
+            "Sensible heat",
+            "Specific heat",
+            "entropy"
+        ],
+        "answer": "Sensible heat",
+        "id": 267
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What property of an element is determined by the number of protons in its nucleus?",
+        "choices": [
+            "Atomic weight",
+            "Atomic number",
+            "Isoropes",
+            "Atomic Mass unit"
+        ],
+        "answer": "Atomic number",
+        "id": 268
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What refers to a metal combined with one or more other elements?",
+        "choices": [
+            "Mixture",
+            "Compound",
+            "Alloy",
+            "Molecule"
+        ],
+        "answer": "Alloy",
+        "id": 269
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Emission of radiations from a substance during illumination by radiations of higher frequency is called",
+        "choices": [
+            "illuminance",
+            "fluorescence",
+            "radioluminescence",
+            "incandescence"
+        ],
+        "answer": "fluorescence",
+        "id": 270
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is measure of rigidity?",
+        "choices": [
+            "Stiffness",
+            "Hardness",
+            "Strength",
+            "Modulus of elasticity"
+        ],
+        "answer": "Modulus of elasticity",
+        "id": 271
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Property of some pure metals and their alloys at extremely low temperatures of having negligible resistance...",
+        "choices": [
+            "supercharging",
+            "supercooling",
+            "superfluidity",
+            "superconductivity"
+        ],
+        "answer": "superconductivity",
+        "id": 272
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The progressive decrease of a property as a result of repeated stress is called",
+        "choices": [
+            "debility",
+            "rigidity",
+            "elastic deformation",
+            "fatigue"
+        ],
+        "answer": "fatigue",
+        "id": 273
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The element that is practically insoluble in solid copper is known as",
+        "choices": [
+            "Lead",
+            "Brass",
+            "Boron",
+            "Neon"
+        ],
+        "answer": "Lead",
+        "id": 274
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The purpose of copper in steel alloying is top increase",
+        "choices": [
+            "Atmosphere corrosion resistance",
+            "Hardness and strength",
+            "Corrosion resistance",
+            "Deoxidation"
+        ],
+        "answer": "Atmosphere corrosion resistance",
+        "id": 275
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "When exposed to the atmosphere, which of the following liquids is coldest?",
+        "choices": [
+            "Oxygen",
+            "nitrogen",
+            "hydrogen",
+            "helium"
+        ],
+        "answer": "helium",
+        "id": 276
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The element that was discovered between calcium and titanium is",
+        "choices": [
+            "Silicon",
+            "Scandium",
+            "Molybdenum",
+            "Potassium"
+        ],
+        "answer": "Scandium",
+        "id": 277
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The best method use to refine gold metal is",
+        "choices": [
+            "Bessemerization",
+            "Oxidation",
+            "Distillation",
+            "Electrolysis"
+        ],
+        "answer": "Electrolysis",
+        "id": 278
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The Hooke's law hold good within",
+        "choices": [
+            "Yield point",
+            "elastic limit",
+            "plastic limit",
+            "Euler's limit"
+        ],
+        "answer": "elastic limit",
+        "id": 279
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The ore from which iron is obtained is",
+        "choices": [
+            "Sphalerite",
+            "bauxite",
+            "taconite",
+            "chalcocite"
+        ],
+        "answer": "taconite",
+        "id": 280
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Aluminum can be added to the steel to produce",
+        "choices": [
+            "killed steel",
+            "dead steel",
+            "live steel",
+            "first steel"
+        ],
+        "answer": "killed steel",
+        "id": 281
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Which of the following is not a ductile metal?",
+        "choices": [
+            "Aluminum",
+            "Copper",
+            "Mild steel",
+            "Lead"
+        ],
+        "answer": "Lead",
+        "id": 282
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The most abundant element in the universe is",
+        "choices": [
+            "He",
+            "C",
+            "H",
+            "O"
+        ],
+        "answer": "H",
+        "id": 283
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Which of the following is the poorest conductor of electricity?",
+        "choices": [
+            "Carbon",
+            "Silver",
+            "Steel",
+            "Aluminum"
+        ],
+        "answer": "Carbon",
+        "id": 284
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Under very slow deformation and at high temperature, plastic flow at lower stress values is called...",
+        "choices": [
+            "Ship",
+            "twinning",
+            "creep",
+            "bending"
+        ],
+        "answer": "creep",
+        "id": 285
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Which element is present in all organic compounds?",
+        "choices": [
+            "Oxygen",
+            "carbon",
+            "nitrogen",
+            "phosphorous"
+        ],
+        "answer": "carbon",
+        "id": 286
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The phenomenon of melting under pressure and freezing again when the pressure is reduced is known as",
+        "choices": [
+            "Sublimation",
+            "condensation",
+            "deposition",
+            "regelation"
+        ],
+        "answer": "regelation",
+        "id": 287
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "In Galvanized iron, a lining on iron is provided with:",
+        "choices": [
+            "Sn",
+            "Zn",
+            "Cu",
+            "Al"
+        ],
+        "answer": "Zn",
+        "id": 288
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What are elements that have properties intermediate between metals and non-metals?",
+        "choices": [
+            "Gases",
+            "Solids",
+            "Metalloids",
+            "Liquids"
+        ],
+        "answer": "Metalloids",
+        "id": 289
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The ability of the surface of material to reflect light is called",
+        "choices": [
+            "Creep",
+            "malleability",
+            "lustre",
+            "ductility"
+        ],
+        "answer": "lustre",
+        "id": 290
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The process of mixing clay, water and other ingredients to make brick is known as",
+        "choices": [
+            "kneading",
+            "moulding",
+            "pugging",
+            "drying"
+        ],
+        "answer": "pugging",
+        "id": 291
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Which element is the best conductor of electricity?",
+        "choices": [
+            "Gold",
+            "silver",
+            "copper",
+            "aluminum"
+        ],
+        "answer": "silver",
+        "id": 292
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Which these statements is TRUE for twinning?",
+        "choices": [
+            "It is the most significant form plastic deformation",
+            "It cannot be cause by impact of thermal structures.",
+            "It occurs at lower shear stresses than slip.",
+            "It frequently occurs in hexagonal closed pack structures."
+        ],
+        "answer": "It frequently occurs in hexagonal closed pack structures.",
+        "id": 293
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What refers to ions that are NOT involved in the overall reactions?",
+        "choices": [
+            "Guest ions",
+            "Spectator ions",
+            "Extra ion",
+            "Donor ions"
+        ],
+        "answer": "Spectator ions",
+        "id": 294
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Which of the following material has the least modulus elasticity?",
+        "choices": [
+            "Copper",
+            "Aluminum",
+            "Steel",
+            "Glass"
+        ],
+        "answer": "Glass",
+        "id": 295
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Materials composed of one or more metallic elements such as iron, aluminum, copper...",
+        "choices": [
+            "Metals",
+            "Metalloid",
+            "Solids",
+            "Crystals"
+        ],
+        "answer": "Metals",
+        "id": 296
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Objects that emit their own light are called bodies.",
+        "choices": [
+            "Solar",
+            "Luminated",
+            "Photovoltaic",
+            "Illuminated"
+        ],
+        "answer": "Luminated",
+        "id": 297
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "In the periodic table of elements, which ONE of the following is light metal?",
+        "choices": [
+            "Potassium",
+            "Mercury",
+            "Silver",
+            "Gold"
+        ],
+        "answer": "Potassium",
+        "id": 298
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Heat can be transferred by conduction through",
+        "choices": [
+            "Solids only",
+            "liquids only",
+            "gases only",
+            "all of these"
+        ],
+        "answer": "all of these",
+        "id": 299
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Which is also called stranger gas?",
+        "choices": [
+            "Xenon",
+            "Neon",
+            "Argon",
+            "Nitrous oxide"
+        ],
+        "answer": "Xenon",
+        "id": 300
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The hardest form of carbon is",
+        "choices": [
+            "Coke",
+            "graphite",
+            "diamond",
+            "Charcoal"
+        ],
+        "answer": "diamond",
+        "id": 301
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The deformation of a bar per unit length in the direction of force is known as",
+        "choices": [
+            "Linear strain",
+            "lateral strain",
+            "shear strain",
+            "volumetric strain"
+        ],
+        "answer": "Linear strain",
+        "id": 302
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The most effective alloying ingredient in increasing hardness is known as",
+        "choices": [
+            "Boron",
+            "Silicon",
+            "Silver",
+            "Carbon"
+        ],
+        "answer": "Carbon",
+        "id": 303
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The simplest and most common grades of steel belong to the group of",
+        "choices": [
+            "Boron steels",
+            "Carbon steels",
+            "neon steels",
+            "krypton steels"
+        ],
+        "answer": "Carbon steels",
+        "id": 304
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is the process of putting back the lost electrons to convert ion back to a metal?",
+        "choices": [
+            "Oxidation",
+            "Corrosion",
+            "Reduction",
+            "Ionization"
+        ],
+        "answer": "Reduction",
+        "id": 305
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Metalloids have a valence of ______.",
+        "choices": [
+            "3",
+            "4",
+            "5",
+            "unity"
+        ],
+        "answer": "4",
+        "id": 306
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "Copper when exposed to ordinary atmosphere becomes oxidized turning it into what color?",
+        "choices": [
+            "Brown",
+            "Light gray",
+            "Light orange",
+            "Black"
+        ],
+        "answer": "Brown",
+        "id": 307
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The most malleable metal is",
+        "choices": [
+            "Platinum",
+            "Silver",
+            "Iron",
+            "Gold"
+        ],
+        "answer": "Gold",
+        "id": 308
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "The first metal used by man was",
+        "choices": [
+            "Iron",
+            "Copper",
+            "Gold",
+            "Bronze"
+        ],
+        "answer": "Copper",
+        "id": 309
+    },
+    {
+        "topic_name": "ESAS_MATERIALS_150",
+        "question_text": "What is another term for modulus of elasticity?",
+        "choices": [
+            "Bulk modulus",
+            "Shear strain",
+            "constant of elongation",
+            "Young's modulus"
+        ],
+        "answer": "Young's modulus",
+        "id": 310
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "Which of the following phenomenon cannot take place with sound waves?",
+        "choices": [
+            "Interference",
+            "polarization",
+            "diffraction",
+            "reflection"
+        ],
+        "answer": "polarization",
+        "id": 311
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "A light scattered perpendicular to an incident beam is partly?",
+        "choices": [
+            "Diffracted",
+            "polarized",
+            "monochromatic",
+            "coherent"
+        ],
+        "answer": "polarized",
+        "id": 312
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "A spring whose force constant is k is cut in half. Each of the new springs has a force constant of",
+        "choices": [
+            "k/2",
+            "k",
+            "2k",
+            "4k"
+        ],
+        "answer": "2k",
+        "id": 313
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "An object that has momentum must also have",
+        "choices": [
+            "Acceleration",
+            "impulse",
+            "kinetic energy",
+            "potential energy"
+        ],
+        "answer": "kinetic energy",
+        "id": 314
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "Newton's first law is often referred to as which of the following?",
+        "choices": [
+            "The law of straight-line motion",
+            "The law of inertia",
+            "The law of momentum",
+            "F = ma"
+        ],
+        "answer": "The law of inertia",
+        "id": 315
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "The study of mechanics of fluids which deals with velocities and streamlines without considering forces of energy",
+        "choices": [
+            "Kinematics",
+            "hydrostatic",
+            "hydrodynamics",
+            "hydrology"
+        ],
+        "answer": "Kinematics",
+        "id": 316
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "The units of joules can be converted to which of the following?",
+        "choices": [
+            "Pa-m2",
+            "N-kg",
+            "Pa/m2",
+            "Pa-m3"
+        ],
+        "answer": "Pa-m3",
+        "id": 317
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "Momentum is closely related to",
+        "choices": [
+            "Kinetic energy",
+            "potential energy",
+            "impulse",
+            "power"
+        ],
+        "answer": "impulse",
+        "id": 318
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "How tall does a wall mirror have to be in order for you to see all of yourself in the mirror? Imagine you stand a distance \"d\" from the mirror and your height is \"h\" and \"L\" is length of mirror required.",
+        "choices": [
+            "L = 1/5 h",
+            "L = 1/4 h",
+            "L = 1/2 h",
+            "L = 1/3 h"
+        ],
+        "answer": "L = 1/2 h",
+        "id": 319
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "Given a free falling body with air resistance neglected, if the final position travelled is four times its initial position. By what factor does the velocity of the body increase?",
+        "choices": [
+            "Twice",
+            "Half",
+            "Four times",
+            "Same"
+        ],
+        "answer": "Twice",
+        "id": 320
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "Which of the following is NOT a unit of work?",
+        "choices": [
+            "N-m",
+            "Erg",
+            "Dyne",
+            "Kg-sq. m/sq. sec"
+        ],
+        "answer": "Dyne",
+        "id": 321
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "Which of the following statement/s about sound is/are true? (I. All sounds are produced by vibration, II. Sound cannot travel through vacuum, III. Sound can be transmitted through some material)",
+        "choices": [
+            "I and II",
+            "I, II and III",
+            "I and III",
+            "II and II"
+        ],
+        "answer": "I, II and III",
+        "id": 322
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "Formula of kinetic energy:",
+        "choices": [
+            "v2/2m",
+            "mv^2/2",
+            "2mv2",
+            "mgh"
+        ],
+        "answer": "mv^2/2",
+        "id": 323
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "If two objects have the same momentum, but different masses, which of these is possible?",
+        "choices": [
+            "The one with less mass has more kinetic energy",
+            "The one with more mass requires more impulse to bring it to that momentum from rest",
+            "The same work is done to each to accelerate it from rest",
+            "They each have the same velocity"
+        ],
+        "answer": "The one with less mass has more kinetic energy",
+        "id": 324
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "As a person moves closer to a plane mirror, the size of the image formed by the mirror",
+        "choices": [
+            "Remains the same",
+            "gets smaller",
+            "Get larger",
+            "increases, then decreases"
+        ],
+        "answer": "Remains the same",
+        "id": 325
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "An object orbits a star in an elliptical orbit. The distance at aphelion is 2a and the distance at perihelion is a. Determine the ratio of the object 's speed at perihelion to that at aphelion.",
+        "choices": [
+            "2",
+            "sqrt 2",
+            "1",
+            "4"
+        ],
+        "answer": "2",
+        "id": 326
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "If the speed of light in a vacuum is c, then the speed of light in a medium with an index of refraction of 2 will be",
+        "choices": [
+            "c/2",
+            "2c",
+            "c/4",
+            "4c"
+        ],
+        "answer": "c/2",
+        "id": 327
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "The radius of gyration of a circular section of diameter d is:",
+        "choices": [
+            "d/2",
+            "d/4",
+            "d",
+            "d/8"
+        ],
+        "answer": "d/4",
+        "id": 328
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "An empty glass was initially place with a cube of ice. A water was filled into a glass such that the ice at the tip of the glass. What will happen after the ice melts?",
+        "choices": [
+            "Cannot determine since no density of the ice and water are given",
+            "Some spilled",
+            "Some spilled on the side of the glass",
+            "Nothing spilled"
+        ],
+        "answer": "Nothing spilled",
+        "id": 329
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "Concurrent forces are those forces whose line of action",
+        "choices": [
+            "Meet at one-point",
+            "meet on the same plane",
+            "Lie on the same line",
+            "none of these"
+        ],
+        "answer": "Meet at one-point",
+        "id": 330
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "Study of motion with reference to the force which causes the motion is:",
+        "choices": [
+            "Kinematics",
+            "kinetics",
+            "statics",
+            "dynamics"
+        ],
+        "answer": "kinetics",
+        "id": 331
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "The vector which represent the sum of a group of force vectors is called the",
+        "choices": [
+            "Magnitude",
+            "resultant",
+            "sum",
+            "force polygon"
+        ],
+        "answer": "resultant",
+        "id": 332
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "A branch of physical science which deals with state of rest or motion of bodies under the action of forces.",
+        "choices": [
+            "Mechanics",
+            "Kinetics",
+            "Kinematics",
+            "Statics"
+        ],
+        "answer": "Mechanics",
+        "id": 333
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "Conservation of ________ is used in collision, explosion and the like.",
+        "choices": [
+            "Mass",
+            "energy",
+            "momentum",
+            "heat"
+        ],
+        "answer": "momentum",
+        "id": 334
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "A mass m is released at a height h, using conservation of energy, find the final velocity of the mass as it hits the ground",
+        "choices": [
+            "V = gh",
+            "v = gh/2",
+            "v = sqrt 2gh",
+            "v = sqrt gh"
+        ],
+        "answer": "v = sqrt 2gh",
+        "id": 335
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "Which of the following closely related to d'Alembert's theorem?",
+        "choices": [
+            "Newton's first law of motion",
+            "Newton's third law of motion",
+            "Newton's second law of motion",
+            "Bernoulli's theorem"
+        ],
+        "answer": "Newton's second law of motion",
+        "id": 336
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "Which characteristics of a wave changes as the wave travels across a boundary between two different media?",
+        "choices": [
+            "Frequency",
+            "period",
+            "phase",
+            "speed"
+        ],
+        "answer": "speed",
+        "id": 337
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "One Newton is equivalent to",
+        "choices": [
+            "10^5 dyne",
+            "10^7 dyne",
+            "10^8 dyne",
+            "10^9 dyne"
+        ],
+        "answer": "10^5 dyne",
+        "id": 338
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "If a refrigerator is left open in a closed room, what will happen to the room temperature?",
+        "choices": [
+            "Room will get cold",
+            "Nothing happens",
+            "The room will gradually increase in temperature",
+            "The room will slightly decrease in temperature"
+        ],
+        "answer": "The room will gradually increase in temperature",
+        "id": 339
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "You are standing on a bathroom scale in an elevator. In which of these situations must the scale read the same as when the elevator is at rest?",
+        "choices": [
+            "Moving up at constant speed",
+            "Moving up with increasing speed",
+            "Moving down with increasing speed",
+            "In free fall (after the elevator cable has snapped)"
+        ],
+        "answer": "Moving up at constant speed",
+        "id": 340
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "An object moving in a circle at a constant speed has an acceleration that is",
+        "choices": [
+            "In the direction of motion",
+            "away from the center of the circle",
+            "Toward the center of the circle",
+            "zero"
+        ],
+        "answer": "Toward the center of the circle",
+        "id": 341
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "A particle is moving with its acceleration parallel to velocity. What is the direction of the particle?",
+        "choices": [
+            "Circle",
+            "Linear",
+            "Parabolic",
+            "Never"
+        ],
+        "answer": "Linear",
+        "id": 342
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "When an object exerts a force on another object, the second object exerts on the first a force of the same magnitude but in the opposite direction. This law known as:",
+        "choices": [
+            "Newton's First law of motion",
+            "Newton's Third law of Motion",
+            "Newton's Second law of motion",
+            "None of these"
+        ],
+        "answer": "Newton's Third law of Motion",
+        "id": 343
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "Two balls are thrown from the roof of a building with the same initial speed. One is thrown horizontally while the other is thrown at an angle of 20 degrees above the horizontal. Which hits the ground with the greatest speed? Ignore air resistance.",
+        "choices": [
+            "The one thrown horizontally",
+            "The one thrown at 20 degrees",
+            "They hit the ground with the same speed",
+            "The answer cannot be determined with the given information"
+        ],
+        "answer": "They hit the ground with the same speed",
+        "id": 344
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "The moment produced by two equal and opposite and non-collinear forces is known as a",
+        "choices": [
+            "resultant",
+            "couple",
+            "torque",
+            "equilibrant"
+        ],
+        "answer": "couple",
+        "id": 345
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "At what point is the applied force minimal in opening a hinge door?",
+        "choices": [
+            "anywhere",
+            "at the center",
+            "farthest the hinge",
+            "near the hinge"
+        ],
+        "answer": "farthest the hinge",
+        "id": 346
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "The slope on the road surface generally provided in the curves is known as",
+        "choices": [
+            "angle of friction",
+            "angle of repose",
+            "angle of banking",
+            "none of these"
+        ],
+        "answer": "angle of banking",
+        "id": 347
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "The ratio of the velocity of light in vacuum to its velocity of another material is",
+        "choices": [
+            "Specific Index",
+            "Refractive Index",
+            "Poisson's Ratio",
+            "Module ratio of Elasticity"
+        ],
+        "answer": "Refractive Index",
+        "id": 348
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "A gamma ray is composed of",
+        "choices": [
+            "high energy protons",
+            "high energy neutrons",
+            "high energy electrons",
+            "high energy electromagnetic radiation"
+        ],
+        "answer": "high energy electromagnetic radiation",
+        "id": 349
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "In a transverse wave, the individual particles of the medium",
+        "choices": [
+            "Move in circles",
+            "Move in ellipse",
+            "Move parallel to the direction of the wave's travel",
+            "Move perpendicularly to the direction of the wave's travel"
+        ],
+        "answer": "Move perpendicularly to the direction of the wave's travel",
+        "id": 350
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "When a force is called a normal force, it is",
+        "choices": [
+            "The usual force expected given the arrangement of a system",
+            "A force that is perpendicular to the surface of the earth at any given location",
+            "A force that is always vertical",
+            "A contact force perpendicular to the contact surfaces between two solid objects."
+        ],
+        "answer": "A contact force perpendicular to the contact surfaces between two solid objects.",
+        "id": 351
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "Defects seen by optical or electron microscope",
+        "choices": [
+            "Alteration",
+            "aberration",
+            "atomization",
+            "deformation"
+        ],
+        "answer": "aberration",
+        "id": 352
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "In cold working of metals",
+        "choices": [
+            "Close dimensional tolerance cannot be maintained",
+            "Poor surface finish is obtained",
+            "Recrystallization temperature for steel is reduced",
+            "Strength and hardness of steel is increased"
+        ],
+        "answer": "Strength and hardness of steel is increased",
+        "id": 353
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "Which light contains wavelength of all or nearly all colors?",
+        "choices": [
+            "White light",
+            "Laser",
+            "X-rays",
+            "Gamma rays"
+        ],
+        "answer": "White light",
+        "id": 354
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "A ball is thrown straight up into the air. Ignore air resistance. While the ball is in the air its acceleration",
+        "choices": [
+            "Increases",
+            "is zero",
+            "remains constant",
+            "decreases"
+        ],
+        "answer": "remains constant",
+        "id": 355
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "A couple produces",
+        "choices": [
+            "combined translatory and rotational motion",
+            "translatory motion",
+            "rotational motion",
+            "none of these"
+        ],
+        "answer": "rotational motion",
+        "id": 356
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "The rate of doing work is known as",
+        "choices": [
+            "power",
+            "potential energy",
+            "kinetic energy",
+            "none of those"
+        ],
+        "answer": "power",
+        "id": 357
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "The condition of equilibrium or motion of a rigid body remains unchanged if a force acting at a given point... is replaced by force along same line... Statement known as:",
+        "choices": [
+            "Pappus Propositions",
+            "Parallelogram Law",
+            "Principle of Transmissibility",
+            "Varignon's Theorem"
+        ],
+        "answer": "Principle of Transmissibility",
+        "id": 358
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "A glass of ice water is filled to the brim with water, the ice cubes stick up above the water surface. After the ice melts, which is true?",
+        "choices": [
+            "The water level is below the top of the glass.",
+            "The water level is at the top of the glass but no water has spilled.",
+            "Some water has spilled over the sides of the glass.",
+            "Impossible to say without knowing the initial densities of the water and the ice."
+        ],
+        "answer": "The water level is at the top of the glass but no water has spilled.",
+        "id": 359
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "The relationship between the extension of a spring and the force required to produces the extension is",
+        "choices": [
+            "F = ma",
+            "F = wN",
+            "F = mv^2/g",
+            "F = kx"
+        ],
+        "answer": "F = kx",
+        "id": 360
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "A vertically loaded beam, fixed at one end and simply supported at the other end is indeterminate to what degree?",
+        "choices": [
+            "second",
+            "first",
+            "third",
+            "fourth"
+        ],
+        "answer": "first",
+        "id": 361
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "A boy throw a ball with the air resistance neglected. What will happen to the acceleration?",
+        "choices": [
+            "decrease",
+            "increase",
+            "constant",
+            "decrease and increase"
+        ],
+        "answer": "constant",
+        "id": 362
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "The three moment equation may be used to analyze",
+        "choices": [
+            "beam loaded at the third point",
+            "a three element composite beam",
+            "continuous beam",
+            "a step tapered column"
+        ],
+        "answer": "continuous beam",
+        "id": 363
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "Which band of light wavelength are too short to be seen by the human eye?",
+        "choices": [
+            "visible",
+            "ultra violet",
+            "infrared",
+            "x-ray"
+        ],
+        "answer": "ultra violet",
+        "id": 364
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "Work or energy can be a function of all the following except?",
+        "choices": [
+            "force and distance",
+            "torque and angular rotation",
+            "power and time",
+            "force and time"
+        ],
+        "answer": "force and time",
+        "id": 365
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "What color has the longest wavelength of light?",
+        "choices": [
+            "yellow",
+            "green",
+            "blue",
+            "red"
+        ],
+        "answer": "red",
+        "id": 366
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "If a disturbance is parallel to the direction of travel of a wave, the wave is classified as",
+        "choices": [
+            "longitudinal",
+            "electromagnetic",
+            "transverse",
+            "torsional"
+        ],
+        "answer": "longitudinal",
+        "id": 367
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "A measure of how it emits radiant energy in comparison with a black body at the same temperature",
+        "choices": [
+            "absorptivity",
+            "reflectivity",
+            "emissivity",
+            "conductivity"
+        ],
+        "answer": "emissivity",
+        "id": 368
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "The pitch of a note is dependent upon",
+        "choices": [
+            "velocity of sound",
+            "amplitude",
+            "frequency",
+            "wavelength of sound"
+        ],
+        "answer": "frequency",
+        "id": 369
+    },
+    {
+        "topic_name": "ESAS_PHYSICS_REVIEW",
+        "question_text": "The mass moment of inertia of a cylinder about its central axis perpendicular to a circular cross section is",
+        "choices": [
+            "directly proportional to its radius",
+            "independent of its radius",
+            "directly proportional to its length",
+            "independent of its length"
+        ],
+        "answer": "directly proportional to its length",
+        "id": 370
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which of the following is not acceptable as an integer variable name?",
+        "choices": [
+            "IRISH",
+            "KOST",
+            "JAPAN",
+            "INSERTS"
+        ],
+        "answer": "IRISH",
+        "id": 371
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is a set of instructions that resides on a storage device, such as hard drive, and can loaded into memory and executive called?",
+        "choices": [
+            "Stored program",
+            "Device program",
+            "Operating program",
+            "Memory-resident program"
+        ],
+        "answer": "Stored program",
+        "id": 372
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which of the following does not threaten the operation of a computer?",
+        "choices": [
+            "Trojan horse",
+            "Worm",
+            "Firewall",
+            "Hacking"
+        ],
+        "answer": "Firewall",
+        "id": 373
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What does FTTH mean?",
+        "choices": [
+            "Flexible to the House",
+            "Flexible to the Home",
+            "Fiber to the Home",
+            "Fiber to the House"
+        ],
+        "answer": "Fiber to the Home",
+        "id": 374
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which of the following is a volatile memory?",
+        "choices": [
+            "RAM",
+            "ROM",
+            "PROM",
+            "EPROM"
+        ],
+        "answer": "RAM",
+        "id": 375
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is the term to describe the moving of software from another computer to your own computer?",
+        "choices": [
+            "Surfing",
+            "Downloading",
+            "Uploading",
+            "Accessing"
+        ],
+        "answer": "Downloading",
+        "id": 376
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which is the longest key on the keyboard board?",
+        "choices": [
+            "Space bar",
+            "Enter key",
+            "Function key",
+            "Shift Key"
+        ],
+        "answer": "Space bar",
+        "id": 377
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What refers to the computer's use of hard disk storage to simulate RAM?",
+        "choices": [
+            "Volatile memory",
+            "ROM",
+            "Data storage",
+            "Virtual memory"
+        ],
+        "answer": "Virtual memory",
+        "id": 378
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "A modem is connected to",
+        "choices": [
+            "A telephone line",
+            "a keyboard",
+            "a printer",
+            "a monitor"
+        ],
+        "answer": "A telephone line",
+        "id": 379
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which language is used to create macros in MS Excel?",
+        "choices": [
+            "Visual basic",
+            "C",
+            "Visual C++",
+            "Java"
+        ],
+        "answer": "Visual basic",
+        "id": 380
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which one is the portion of an instruction cycle where the instruction is sent from memory to the instruction register?",
+        "choices": [
+            "LOAD",
+            "ACCIMULATE",
+            "EXECUTE",
+            "FETCH"
+        ],
+        "answer": "FETCH",
+        "id": 381
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is BASIC stands for?",
+        "choices": [
+            "Basic All-purpose Symbolic Instruction Code",
+            "Basic All-Purpose System Instruction Code",
+            "Beginner's All-purpose Symbolic Instruction Code",
+            "Beginner's All-purpose System Instruction Code"
+        ],
+        "answer": "Beginner's All-purpose Symbolic Instruction Code",
+        "id": 382
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "In flow cart, what is the symbol used in decision making?",
+        "choices": [
+            "Oval",
+            "rectangle",
+            "diamond",
+            "square"
+        ],
+        "answer": "diamond",
+        "id": 383
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "A byte is composed of how many bits?",
+        "choices": [
+            "2",
+            "4",
+            "6",
+            "8"
+        ],
+        "answer": "8",
+        "id": 384
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which function key is used to check spellings?",
+        "choices": [
+            "F2",
+            "F5",
+            "F7",
+            "F11"
+        ],
+        "answer": "F7",
+        "id": 385
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which of the following classes of mass memory devices used a laser beam to write and read onto a specified coated disk?",
+        "choices": [
+            "Non-volatile memory",
+            "RAM",
+            "ROM",
+            "Optical disk memory"
+        ],
+        "answer": "Optical disk memory",
+        "id": 386
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which of the following are NOT examples of nonvolatile memory in the computer system?",
+        "choices": [
+            "Flash drives",
+            "RAMS",
+            "Optical disk",
+            "hard drives"
+        ],
+        "answer": "RAMS",
+        "id": 387
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Who was the father of internet?",
+        "choices": [
+            "Charles Babbage",
+            "Vint Cerf",
+            "Denis Riche",
+            "Martin Cooper"
+        ],
+        "answer": "Vint Cerf",
+        "id": 388
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "The way of stealing valuable information using a form of internet fraud that uses a replica of a trusted site is called",
+        "choices": [
+            "Spam",
+            "Phishing",
+            "Fraud",
+            "surfing"
+        ],
+        "answer": "Phishing",
+        "id": 389
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which device among following is used for sending digital data over a phone line?",
+        "choices": [
+            "USB",
+            "Scanner",
+            "Printer",
+            "Modem"
+        ],
+        "answer": "Modem",
+        "id": 390
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which method is used to connect a remote computer?",
+        "choices": [
+            "Device",
+            "Dialup",
+            "Diagnostic",
+            "Logic circuit"
+        ],
+        "answer": "Dialup",
+        "id": 391
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What does USB stands for?",
+        "choices": [
+            "Universal Serial Base",
+            "Universal Series Base",
+            "Universal Serial Bus",
+            "Universal Series Bus"
+        ],
+        "answer": "Universal Serial Bus",
+        "id": 392
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which device of computer operation dispenses with the use of keyboard?",
+        "choices": [
+            "Joystick",
+            "Light pen",
+            "Mouse",
+            "Touch"
+        ],
+        "answer": "Mouse",
+        "id": 393
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "The alternate banking Delivery Channels are:",
+        "choices": [
+            "E-banking",
+            "mobile banking",
+            "ATM",
+            "SMS banking"
+        ],
+        "answer": "ATM",
+        "id": 394
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "The basic unit of a worksheet into which you enter data in Excel is called a",
+        "choices": [
+            "Tab",
+            "cell",
+            "box",
+            "range"
+        ],
+        "answer": "cell",
+        "id": 395
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "In a spreadsheet (EXCEL), the number in cell A2 is set to 2. Then cell B2 is set to A2*4$A$2... copied to D2...",
+        "choices": [
+            "8",
+            "2",
+            "4",
+            "16"
+        ],
+        "answer": "16",
+        "id": 396
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "MS-DOS is a type of?",
+        "choices": [
+            "System software",
+            "operating system",
+            "application software",
+            "system architecture"
+        ],
+        "answer": "operating system",
+        "id": 397
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "A BB is how many bytes?",
+        "choices": [
+            "1000",
+            "1024",
+            "1012",
+            "1048"
+        ],
+        "answer": "1024",
+        "id": 398
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "A software that a commonly known as firmware.",
+        "choices": [
+            "OS",
+            "Cache Memory",
+            "BIOS",
+            "IO"
+        ],
+        "answer": "BIOS",
+        "id": 399
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "The brain of any computer system is",
+        "choices": [
+            "ALU",
+            "Memory",
+            "CPU",
+            "Control unit"
+        ],
+        "answer": "CPU",
+        "id": 400
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "A storage system for small amounts of data is",
+        "choices": [
+            "Magnetic card",
+            "Magnetic tape",
+            "Punched card",
+            "Optical mark reader"
+        ],
+        "answer": "Magnetic card",
+        "id": 401
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which is most common language used in web designing?",
+        "choices": [
+            "C",
+            "C++",
+            "PHP",
+            "HTML"
+        ],
+        "answer": "HTML",
+        "id": 402
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "BCD is",
+        "choices": [
+            "Binary Coded Decimal",
+            "Bit Coded C=Decimal",
+            "Binary Coded Digit",
+            "Bit Coded Digit"
+        ],
+        "answer": "Binary Coded Decimal",
+        "id": 403
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "The process of outsmarting the search engine.",
+        "choices": [
+            "Google Fooling",
+            "Rank Enhancement",
+            "Search Engine Optimizing",
+            "Search Engine Hacking"
+        ],
+        "answer": "Search Engine Optimizing",
+        "id": 404
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Process of posting latitude and longitude to pictures and images.",
+        "choices": [
+            "Podcasting",
+            "Geotagging",
+            "Flagging",
+            "Posting"
+        ],
+        "answer": "Geotagging",
+        "id": 405
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What does HTTP stand for?",
+        "choices": [
+            "Hypertext Time Protocol",
+            "Hypertext Transmission Process",
+            "Hypertime Text Protocol",
+            "Hypertext Transfer Protocol"
+        ],
+        "answer": "Hypertext Transfer Protocol",
+        "id": 406
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which is not a programming language used in web development?",
+        "choices": [
+            "XML",
+            "FORTRAN",
+            "HTML",
+            "JavaScript"
+        ],
+        "answer": "FORTRAN",
+        "id": 407
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which is not used in programming applications?",
+        "choices": [
+            "C",
+            "Java",
+            "Oracle",
+            "Visual Basic"
+        ],
+        "answer": "Oracle",
+        "id": 408
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "After installing a new modem and router to a computer, what is the order of turning on?",
+        "choices": [
+            "Computer, modem, router",
+            "modem, computer, router",
+            "Router, modem, compute",
+            "modem, router, computer"
+        ],
+        "answer": "modem, router, computer",
+        "id": 409
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "is an act of sending e-mails or creating web pages that are designed to collect an individual's online bank...",
+        "choices": [
+            "Malware",
+            "Hacking",
+            "Cracking",
+            "Phishing"
+        ],
+        "answer": "Phishing",
+        "id": 410
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "A method identifying the location of a given data record by its name.",
+        "choices": [
+            "Tracking",
+            "Linker",
+            "Signature",
+            "Hashing"
+        ],
+        "answer": "Hashing",
+        "id": 411
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is the shortcut key to reach the end of the document?",
+        "choices": [
+            "End",
+            "Ctrl + End",
+            "Shift + End",
+            "Home"
+        ],
+        "answer": "Ctrl + End",
+        "id": 412
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "BIOS stands for",
+        "choices": [
+            "Basic Input Output Society",
+            "Base Input Output Society",
+            "Basic Input Output System",
+            "Base Input Output System"
+        ],
+        "answer": "Basic Input Output System",
+        "id": 413
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Fastest internet connection for home users nowadays.",
+        "choices": [
+            "DSL",
+            "Dial-Up",
+            "FTTH",
+            "Broadband wireless"
+        ],
+        "answer": "FTTH",
+        "id": 414
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which of the following computer language is used for artificial intelligence?",
+        "choices": [
+            "FORTAN",
+            "PROLOG",
+            "C",
+            "COBOL"
+        ],
+        "answer": "PROLOG",
+        "id": 415
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which of the following is spreadsheet software?",
+        "choices": [
+            "Microsoft Word",
+            "Notepad",
+            "Microsoft Excel",
+            "PowerPoint"
+        ],
+        "answer": "Microsoft Excel",
+        "id": 416
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "A computer is self-replicating computer program.",
+        "choices": [
+            "Viruses",
+            "Worms",
+            "Spyware",
+            "Malware"
+        ],
+        "answer": "Worms",
+        "id": 417
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is the other term for storing data in memory?",
+        "choices": [
+            "Reading",
+            "loading",
+            "memorizing",
+            "writing"
+        ],
+        "answer": "writing",
+        "id": 418
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is the common input device?",
+        "choices": [
+            "Speaker",
+            "keyboard",
+            "mouse",
+            "LCD"
+        ],
+        "answer": "keyboard",
+        "id": 419
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "The process of detecting, locating and correcting logic errors in a program.",
+        "choices": [
+            "Compiling",
+            "reading",
+            "detecting",
+            "debugging"
+        ],
+        "answer": "debugging",
+        "id": 420
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Absolute reference in a spreadsheet is used by inserting a sign before the column and row.",
+        "choices": [
+            "Period",
+            "dollar",
+            "semi-column",
+            "hyphen"
+        ],
+        "answer": "dollar",
+        "id": 421
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What are the system programs used to translate directly an assembly language to machine language called?",
+        "choices": [
+            "Compiler",
+            "Debugger",
+            "Interpreter",
+            "Assembler"
+        ],
+        "answer": "Assembler",
+        "id": 422
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "MS-WORD is a type of?",
+        "choices": [
+            "System software",
+            "operating system",
+            "application software",
+            "system architecture"
+        ],
+        "answer": "application software",
+        "id": 423
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is CD ROM?",
+        "choices": [
+            "Compact Disk Read Only Memory",
+            "Compact Date Read Only Memory",
+            "Compatible Disk Read Only Memory",
+            "Compatible Date Read Only Memory"
+        ],
+        "answer": "Compact Disk Read Only Memory",
+        "id": 424
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "which of the following is an instruction that causes to be bought from memory into an accumulator register?",
+        "choices": [
+            "LOAD",
+            "LOOP",
+            "FETCH",
+            "JUMP"
+        ],
+        "answer": "LOAD",
+        "id": 425
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "The abbreviation for binary digit",
+        "choices": [
+            "bid",
+            "bin",
+            "bit",
+            "byte"
+        ],
+        "answer": "bit",
+        "id": 426
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which of the following is not a function of computer?",
+        "choices": [
+            "Understanding",
+            "processing",
+            "controlling",
+            "inputting"
+        ],
+        "answer": "Understanding",
+        "id": 427
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "ASCII means",
+        "choices": [
+            "American Standard Code for information input",
+            "American Standard Code for Input Information",
+            "American Standard Capacity for Information Input",
+            "American Standard Code for Information Interchange"
+        ],
+        "answer": "American Standard Code for Information Interchange",
+        "id": 428
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "WWW stands for",
+        "choices": [
+            "World Wide War",
+            "World Wide Web",
+            "World Wide Wrestling",
+            "World Wide Workers"
+        ],
+        "answer": "World Wide Web",
+        "id": 429
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "ALU stands for",
+        "choices": [
+            "Arithmetic Logic Unit",
+            "Arithmetic Logical Unit",
+            "Arithmetic Logic Users",
+            "Arithmetic logical User"
+        ],
+        "answer": "Arithmetic Logic Unit",
+        "id": 430
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which gate is formed by inverting the output of the AND gate?",
+        "choices": [
+            "NAND gate",
+            "OR gate",
+            "NOR gate",
+            "None of these"
+        ],
+        "answer": "NAND gate",
+        "id": 431
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is the smallest unit if information handled by a computer?",
+        "choices": [
+            "Bit",
+            "Byte",
+            "Cell",
+            "Character"
+        ],
+        "answer": "Bit",
+        "id": 432
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which is not a programming language?",
+        "choices": [
+            "FROTRAN",
+            "LOTUS",
+            "PASCAL",
+            "COBOL"
+        ],
+        "answer": "LOTUS",
+        "id": 433
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is the UPS stand for?",
+        "choices": [
+            "Uninterrupting Power Supply",
+            "Uninterruptible Power Supply",
+            "United Power Supply",
+            "Uninterruptible Portable Supply"
+        ],
+        "answer": "Uninterruptible Power Supply",
+        "id": 434
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "The central Processing Unit of computer is a combination of",
+        "choices": [
+            "Arithmetic logic and input unit",
+            "Control and storage",
+            "Arithmetic logic and control unit",
+            "Control and input unit"
+        ],
+        "answer": "Arithmetic logic and control unit",
+        "id": 435
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "A technician has installed a new video card and the computer will now only boot into VGA mode. Which of the following may be the cause of the problem?",
+        "choices": [
+            "There is an operating system incompatibility",
+            "The external monitor is not compatible",
+            "The new card is not DVI compatible",
+            "The incorrect drivers are installed"
+        ],
+        "answer": "The incorrect drivers are installed",
+        "id": 436
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "When installing the heatsink back into a computer after replacing a failed processor, which of the following must be done during installation?",
+        "choices": [
+            "Thermal compound must be installed between the processor and the heatsink",
+            "Thermal compound must be installed between the processor and the system board.",
+            "An isopropyl alcohol pad must be placed between the processor and the heatsink",
+            "An isopropyl alcohol pad must be placed between the processor and the system board"
+        ],
+        "answer": "Thermal compound must be installed between the processor and the heatsink",
+        "id": 437
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which of the following computer program is NOT considered open-source software?",
+        "choices": [
+            "Firefox",
+            "Microsoft Office",
+            "Linux",
+            "OpenOffice.org"
+        ],
+        "answer": "Microsoft Office",
+        "id": 438
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "A printed circuit board that has (at least) slots to connect cards into. Often, they also include a CPU and memory is called",
+        "choices": [
+            "Mainframe",
+            "IDE port",
+            "Motherboard",
+            "Server"
+        ],
+        "answer": "Motherboard",
+        "id": 439
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which of the following is the basic symbol used a beginning or termination in logic diagram or flowchart?",
+        "choices": [
+            "Square box",
+            "Oval symbol",
+            "Rectangular box",
+            "Diamond box"
+        ],
+        "answer": "Oval symbol",
+        "id": 440
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What form of software can also be called firmware?",
+        "choices": [
+            "Cache memory",
+            "Operating system",
+            "System BIOS",
+            "random memory"
+        ],
+        "answer": "System BIOS",
+        "id": 441
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "In printing your document in the computer, what is the default mode?",
+        "choices": [
+            "Page view",
+            "Landscape",
+            "Page set-up",
+            "Portrait"
+        ],
+        "answer": "Portrait",
+        "id": 442
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is the standardized communication technique for expressing instructions to a computer?",
+        "choices": [
+            "Flow chart",
+            "Programing language",
+            "Algorithm",
+            "Logic"
+        ],
+        "answer": "Programing language",
+        "id": 443
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which of the following are used in designing and documenting complex processes or programs that help to visualize what is going on...",
+        "choices": [
+            "Charts",
+            "Diagrams",
+            "Flowcharts",
+            "Networks"
+        ],
+        "answer": "Flowcharts",
+        "id": 444
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "A megabyte is exactly bytes.",
+        "choices": [
+            "1, 084,567",
+            "999,999",
+            "1,048,576",
+            "1,000,000"
+        ],
+        "answer": "1,048,576",
+        "id": 445
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which of the following is a correct IF statement?",
+        "choices": [
+            "IF (I,GE,5)",
+            "IF (I.GE.5)",
+            "IF (I,GE,5) GO TO 7",
+            "IF (I.GE.5) GO TO 7"
+        ],
+        "answer": "IF (I.GE.5)",
+        "id": 446
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Encryption can provide all the following features of information system security EXCEPT .",
+        "choices": [
+            "Confidentiality",
+            "Integrity",
+            "Authenticity",
+            "Privacy"
+        ],
+        "answer": "Authenticity",
+        "id": 447
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is the web version of facebook wikipedia and other similar interaction group?",
+        "choices": [
+            "1.0",
+            "2.0",
+            "3.0",
+            "0.40"
+        ],
+        "answer": "2.0",
+        "id": 448
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Really Simple Syndication (RSS) allows you to do following except,",
+        "choices": [
+            "edit",
+            "publishing video blog",
+            "receive current feeds",
+            "send current feeds"
+        ],
+        "answer": "edit",
+        "id": 449
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "In excel, which shall you use to make a colomn chart?",
+        "choices": [
+            "chart wizzard",
+            "pi graph",
+            "excel chart",
+            "bar chart"
+        ],
+        "answer": "chart wizzard",
+        "id": 450
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "It is a form of audio broadcasting on the internet.",
+        "choices": [
+            "webcasting",
+            "podcasting",
+            "newscasting",
+            "netcasting"
+        ],
+        "answer": "podcasting",
+        "id": 451
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which of the following is used to find a particular webpage?",
+        "choices": [
+            "URL",
+            "IP address",
+            "domain",
+            "google"
+        ],
+        "answer": "URL",
+        "id": 452
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "VIRUS means,",
+        "choices": [
+            "Vital Information Resource Under Siege",
+            "Very Important Resource Under Siege",
+            "Vulnerable Information Reserved Under State",
+            "Vital Information Reserved Under Siege"
+        ],
+        "answer": "Vital Information Resource Under Siege",
+        "id": 453
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which of the following is represented by JPEG?",
+        "choices": [
+            "Joint Photographic Experts Group",
+            "Joint Photographic Experts Grade",
+            "Joint Photography Experts Grade",
+            "Joint Photographic Experts Group (dup)"
+        ],
+        "answer": "Joint Photographic Experts Group",
+        "id": 454
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "A circle in the flowchart symbols represent which one of the following?",
+        "choices": [
+            "Connector",
+            "Decision",
+            "Data",
+            "Terminator"
+        ],
+        "answer": "Connector",
+        "id": 455
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Nibble is composed of how many bits?",
+        "choices": [
+            "4",
+            "8",
+            "6",
+            "7"
+        ],
+        "answer": "4",
+        "id": 456
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which of the following is represented by CMOS?",
+        "choices": [
+            "Complementary Metal Oxide Semiconductor Logic",
+            "Complimentary Mutual Oxide Semiconductor",
+            "Common Oriented Bussiness Logic",
+            "Complementary Mental Oxide Semiconductor"
+        ],
+        "answer": "Complementary Metal Oxide Semiconductor Logic",
+        "id": 457
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which of the following represented by COBOL?",
+        "choices": [
+            "Common Business Language",
+            "Common Business Oriented Language",
+            "Common Oriented Business Language",
+            "Common Business Orientation Language"
+        ],
+        "answer": "Common Business Oriented Language",
+        "id": 458
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "A rectangular shape symbol in a flow chart represent,",
+        "choices": [
+            "process",
+            "decision",
+            "merge",
+            "preparation"
+        ],
+        "answer": "process",
+        "id": 459
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "PDF mean,",
+        "choices": [
+            "portable document format",
+            "portable document file",
+            "protocol document format",
+            "protocol document file"
+        ],
+        "answer": "portable document format",
+        "id": 460
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "DSL means,",
+        "choices": [
+            "digital subscriber line",
+            "digital subscription line",
+            "digital standard line",
+            "digital service line"
+        ],
+        "answer": "digital subscriber line",
+        "id": 461
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "URL means,",
+        "choices": [
+            "uniform resource locator",
+            "universal resource locator",
+            "uniform resource location",
+            "universal resource location"
+        ],
+        "answer": "uniform resource locator",
+        "id": 462
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What refers to the computer's use of head disk storage to simulate RAM?",
+        "choices": [
+            "Volatile memory",
+            "ROM",
+            "Data storage",
+            "Virtual memory"
+        ],
+        "answer": "Virtual memory",
+        "id": 463
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is the term for a deadlock situation that occurs when a program references a different page for almost every instructions and there is not enough memory...",
+        "choices": [
+            "paging",
+            "scanning",
+            "trashing",
+            "handshaking"
+        ],
+        "answer": "trashing",
+        "id": 464
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What do you call a translated program in machine language?",
+        "choices": [
+            "source program",
+            "an object program",
+            "a machine program",
+            "a user's program"
+        ],
+        "answer": "an object program",
+        "id": 465
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "A special file that is used by he operating system to store the physical location of all the files on a storage medium...",
+        "choices": [
+            "field",
+            "file allocation table",
+            "file format",
+            "file information table"
+        ],
+        "answer": "file allocation table",
+        "id": 466
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "A digital circuit is known as",
+        "choices": [
+            "arithmetic circuit",
+            "logic circuit",
+            "electronic circuit",
+            "sequential circuit"
+        ],
+        "answer": "logic circuit",
+        "id": 467
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which device puts data on the data bus during a write operation?",
+        "choices": [
+            "ALU",
+            "CPU",
+            "Keyboard",
+            "Accumulator"
+        ],
+        "answer": "CPU",
+        "id": 468
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What do you call viruses designed to corrupt antivirus software?",
+        "choices": [
+            "anti-virus",
+            "anti-virus eradicator",
+            "worm",
+            "retro virus"
+        ],
+        "answer": "retro virus",
+        "id": 469
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is the term for computer professional who plans an entire computer system?",
+        "choices": [
+            "programmer",
+            "software developer",
+            "system analyst",
+            "all of the choices"
+        ],
+        "answer": "system analyst",
+        "id": 470
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What device is used in converting a computer digital signal to analog signals for transmission over telephone wires?",
+        "choices": [
+            "modem",
+            "network hub",
+            "digital switch",
+            "demodulator"
+        ],
+        "answer": "modem",
+        "id": 471
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What do you call a communication network that covers a wide geographical area such as a state or a country?",
+        "choices": [
+            "local area network",
+            "wide area network",
+            "metropolitan area network",
+            "multi-level network"
+        ],
+        "answer": "wide area network",
+        "id": 472
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What type of communication system uses light rather than electricity to communicate?",
+        "choices": [
+            "data communication",
+            "optical communication",
+            "microwave communication",
+            "fiber optic communication"
+        ],
+        "answer": "fiber optic communication",
+        "id": 473
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "FLAG means,",
+        "choices": [
+            "fiber link around the globe",
+            "four mode link around the globe",
+            "fiber optic link around the globe",
+            "four link around the globe"
+        ],
+        "answer": "fiber optic link around the globe",
+        "id": 474
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "DSL means,",
+        "choices": [
+            "digital subscriber line",
+            "digital subscription link",
+            "digital subscription line",
+            "digital subscriber link"
+        ],
+        "answer": "digital subscriber line",
+        "id": 475
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "PDF means,",
+        "choices": [
+            "portable document format",
+            "portable document file",
+            "portable document form",
+            "portable data file"
+        ],
+        "answer": "portable document format",
+        "id": 476
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "FTP means,",
+        "choices": [
+            "a file transfer protocol",
+            "file transfer port",
+            "file transmission port",
+            "file termination protocol"
+        ],
+        "answer": "a file transfer protocol",
+        "id": 477
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What refers to the debugging method in which the program is executed one instruction at a time and the register contents can be examined after each step?",
+        "choices": [
+            "text editing",
+            "syntax analysing",
+            "trace",
+            "stacking"
+        ],
+        "answer": "trace",
+        "id": 478
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is the term used to describe the moving of software from another computer to your own computer?",
+        "choices": [
+            "surfing",
+            "downloading",
+            "uploading",
+            "accessing"
+        ],
+        "answer": "downloading",
+        "id": 479
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is that part of computer instruction that defines what type of operation the computer is to execute on specified data?",
+        "choices": [
+            "machine language",
+            "demonic",
+            "assembly language",
+            "op code"
+        ],
+        "answer": "op code",
+        "id": 480
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is the term for a computer or software that request that request information from another computer to server?",
+        "choices": [
+            "host",
+            "workstation",
+            "client",
+            "all of these"
+        ],
+        "answer": "client",
+        "id": 481
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What refers to the time with which a disc can find data being sought?",
+        "choices": [
+            "access time",
+            "data rate time",
+            "transfer time",
+            "enter time"
+        ],
+        "answer": "access time",
+        "id": 482
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is the term for a high speed memory used to store a small amount of data temporarily so that the data can be retrieved quickly?",
+        "choices": [
+            "cache memory",
+            "video memory",
+            "volatile memory",
+            "scratchpad memory"
+        ],
+        "answer": "cache memory",
+        "id": 483
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is the most common type of digital IC package?",
+        "choices": [
+            "DIP",
+            "Metal type",
+            "CMOS",
+            "TTL"
+        ],
+        "answer": "DIP",
+        "id": 484
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What term is used to describe retrieval of data from a memory?",
+        "choices": [
+            "unloading",
+            "downloading",
+            "reading",
+            "accessing"
+        ],
+        "answer": "reading",
+        "id": 485
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What refers to the manner in which alphanumeric data and control characters are represented by sequences of bits?",
+        "choices": [
+            "controlling",
+            "processing",
+            "coding",
+            "transforming"
+        ],
+        "answer": "coding",
+        "id": 486
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which one refers to a device that amplifies signal and passes it on?",
+        "choices": [
+            "repeater",
+            "amplifier",
+            "trap",
+            "modulator"
+        ],
+        "answer": "repeater",
+        "id": 487
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What do you call a communication network covering a geographical area the size of a city or suburban?",
+        "choices": [
+            "local area network (LAN)",
+            "metropolitan area network (MAN)",
+            "wide area network (WAN)",
+            "multi-level network"
+        ],
+        "answer": "metropolitan area network (MAN)",
+        "id": 488
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "A computer that is smaller and more portable than a computer notebook which is sometimes called palm top computer.",
+        "choices": [
+            "microcomputer",
+            "personal digital assistant (PDA)",
+            "minicomputer",
+            "micro PC"
+        ],
+        "answer": "personal digital assistant (PDA)",
+        "id": 489
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What refers to a technique where each user of a computer takes turn, under the control of the operating system, using the entire computer main memory for a length of time?",
+        "choices": [
+            "multitasking",
+            "time sharing",
+            "handshaking",
+            "batch processing"
+        ],
+        "answer": "time sharing",
+        "id": 490
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "A computer virus that infects the macros that are attached to documents and spreadsheets is called,",
+        "choices": [
+            "micro virus",
+            "file virus",
+            "document virus",
+            "spreadsheet virus"
+        ],
+        "answer": "micro virus",
+        "id": 491
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Which of the following devices merges signal?",
+        "choices": [
+            "oscillator",
+            "multiplexer",
+            "demodulator",
+            "demultiplexer"
+        ],
+        "answer": "multiplexer",
+        "id": 492
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What do you call a collection of fields?",
+        "choices": [
+            "file",
+            "record",
+            "document",
+            "database"
+        ],
+        "answer": "record",
+        "id": 493
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "What is the another term of operating system (OS)?",
+        "choices": [
+            "start up program",
+            "computer program",
+            "monitor program",
+            "all of these"
+        ],
+        "answer": "monitor program",
+        "id": 494
+    },
+    {
+        "topic_name": "ICT_REVIEW",
+        "question_text": "Network protocol allow two or more pc to communicate unto network with the same language then commercially and standard",
+        "choices": [
+            "OSI",
+            "LAN",
+            "TCP/IP",
+            "WAN"
+        ],
+        "answer": "TCP/IP",
+        "id": 495
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Which of the following is CORRECT regarding the sizing of the rating of the overcurrent protective device of a circuit?",
+        "choices": [
+            "125% of the non-continuous load plus 80% of the continuous load",
+            "125% of the continuous load plus 80% of the continuous load",
+            "125% of the non-continuous load plus 100% of the continuous load",
+            "125% of the continuous load plus 100% of the non continuous load"
+        ],
+        "answer": "125% of the continuous load plus 100% of the non continuous load",
+        "id": 496
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Current in an electrical circuit will take __________ to return to the source.",
+        "choices": [
+            "Open the circuit in the event of an overload",
+            "Open or close the circuit under load",
+            "Only the path of least resistance",
+            "Any and all paths available"
+        ],
+        "answer": "Any and all paths available",
+        "id": 497
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "The PEC part 1 2017 edition is intended as a design specification or an instruction manual to qualified person.",
+        "choices": [
+            "Both I or II",
+            "Either I or II",
+            "II only (False)",
+            "I only (True)"
+        ],
+        "answer": "II only (False)",
+        "id": 498
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "The total load on overcurrent device located in a panel board shall NOT exceed a certain percentage of its rating. What is the percentage?",
+        "choices": [
+            "120%",
+            "90%",
+            "100%",
+            "80%"
+        ],
+        "answer": "80%",
+        "id": 499
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "In Rigid Metal Conduit (RMC) wiring, conduits shall be supported at least every __________ mm.",
+        "choices": [
+            "1500",
+            "2000",
+            "3000",
+            "1000"
+        ],
+        "answer": "3000",
+        "id": 500
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Electrical equipment must be grounded to ensure that dangerous voltage on metal parts resulting from a ground fault can be reduced to a safe value.",
+        "choices": [
+            "I only (True)",
+            "II only (False)",
+            "both I and II",
+            "Either I and II"
+        ],
+        "answer": "I only (True)",
+        "id": 501
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Where receptacles are connected to a 30-A branch circuit, the maximum allowable cord and plug connected load shall NOT be more than __________ A.",
+        "choices": [
+            "24",
+            "26",
+            "30",
+            "34"
+        ],
+        "answer": "24",
+        "id": 502
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "The Philippine Electrical Code Part 1 2009 was based on the National Electrical Code 2005 while the Philippine Electrical Code Part 1 2017 Edition was based on the National Electrical Code __________.",
+        "choices": [
+            "2017",
+            "2011",
+            "2008",
+            "2014"
+        ],
+        "answer": "2014",
+        "id": 503
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "What is the maximum distance from the flooring to the receptacle outlet in dwelling unit in mm?",
+        "choices": [
+            "1900",
+            "1800",
+            "1700",
+            "2500"
+        ],
+        "answer": "1800",
+        "id": 504
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "How many times the diameter of the largest raceways shall the length of the box be in straight pulls?",
+        "choices": [
+            "6",
+            "4",
+            "8",
+            "10"
+        ],
+        "answer": "8",
+        "id": 505
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Which of the following insulation color identify the grounded conductor of a branch circuit?",
+        "choices": [
+            "Black",
+            "Green",
+            "Yellow",
+            "White"
+        ],
+        "answer": "White",
+        "id": 506
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "\"The earth\" best defines of which of the following term?",
+        "choices": [
+            "Bonding",
+            "Ground electrode",
+            "Ground",
+            "Grounded conductor"
+        ],
+        "answer": "Ground",
+        "id": 507
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "In house wiring, ground conductors must not be __________.",
+        "choices": [
+            "Insulated",
+            "Identified",
+            "place in a circuit",
+            "fused"
+        ],
+        "answer": "fused",
+        "id": 508
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Which of the following is/are the disadvantage/s of operating an ungrounded electrical system? (I. Transient overvoltage cannot be controlled, II. Power system overvoltage are not controlled, III. Destructive arcing burndowns can occur a second fault)",
+        "choices": [
+            "I only",
+            "I, II, and III",
+            "II only",
+            "I and II"
+        ],
+        "answer": "I, II, and III",
+        "id": 509
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Any equipment which produces, modifies, regulates, or controls the supply of electric energy is the __________.",
+        "choices": [
+            "Electric supply equipment",
+            "Transformer",
+            "Substation",
+            "Generator set"
+        ],
+        "answer": "Electric supply equipment",
+        "id": 510
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Motors must be labeled with the following nameplate rating, manufacturer's name and etc. This is __________.",
+        "choices": [
+            "Manufacturing rule",
+            "Construction rule",
+            "wiring design rule",
+            "installation rule"
+        ],
+        "answer": "Construction rule",
+        "id": 511
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "In sizing of wire this is __________.",
+        "choices": [
+            "Manufacturing rule",
+            "Construction rule",
+            "wiring rule",
+            "installation rule"
+        ],
+        "answer": "wiring rule",
+        "id": 512
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "A carwash area is classified as __________.",
+        "choices": [
+            "Wet location",
+            "Dry location",
+            "Damp location",
+            "Moist location"
+        ],
+        "answer": "Wet location",
+        "id": 513
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Installations underground or in concrete slabs or masonry in direct contact with the earth.",
+        "choices": [
+            "Wet location",
+            "Dry location",
+            "Damp location",
+            "Moist location"
+        ],
+        "answer": "Wet location",
+        "id": 514
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "A system or circuit conductor that is intentionally grounded.",
+        "choices": [
+            "Grounding conductor",
+            "Grounding electrode conductor",
+            "Grounded conductor",
+            "Grounding equipment"
+        ],
+        "answer": "Grounded conductor",
+        "id": 515
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "A conducting connections, whether intentional or accidental, between an electrical circuit or equipment and the earth, or to some conducting body that serves in place of the earth.",
+        "choices": [
+            "Grounded",
+            "Ground",
+            "Short",
+            "Fault"
+        ],
+        "answer": "Ground",
+        "id": 516
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "A conductor used to connect equipment or the grounded circuit of a wiring system to a grounding electrode or electrodes.",
+        "choices": [
+            "Grounding conductor",
+            "Grounding Electrode conductor",
+            "Grounded Conductor",
+            "Grounding Equipment"
+        ],
+        "answer": "Grounding conductor",
+        "id": 517
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Which of the following is not a fundamental rule in PEC?",
+        "choices": [
+            "Construction Rule",
+            "Wiring Rule",
+            "Installation Rule",
+            "Manufacturing Rule"
+        ],
+        "answer": "Wiring Rule",
+        "id": 518
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "The conductor used to connect the grounding electrode to the equipment grounding conductor, to the grounded conductor, or to both, of the circuit at the service equipment at the source of a separately derived system.",
+        "choices": [
+            "Grounded Conductor",
+            "Equipment Grounding Conductor",
+            "Grounding Conductor",
+            "Grounding Electrode Conductor"
+        ],
+        "answer": "Grounding Electrode Conductor",
+        "id": 519
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "A device intended for the protection of personal that functions to de-energize a circuit or portion thereof within an established period of time when a current to ground exceed some predetermined value...",
+        "choices": [
+            "Grounding conductor",
+            "Grounding Conductor Equipment",
+            "Grounding-Fault Circuit Interrupter",
+            "Ground-Fault Protection of Equipment"
+        ],
+        "answer": "Grounding-Fault Circuit Interrupter",
+        "id": 520
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Partially protected under canopies, marquees, roofed open porches, and like locations, and interior locations subject to moderate degrees of moisture...",
+        "choices": [
+            "Dry",
+            "Damp",
+            "Moist",
+            "Wet"
+        ],
+        "answer": "Damp",
+        "id": 521
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "A location not normally subjects to dampness or wellness. A location classified as __________ may be temporarily subject to dampness or wetness, as in the case of a building under construction.",
+        "choices": [
+            "Dry",
+            "Damp",
+            "Moist",
+            "Wet"
+        ],
+        "answer": "Dry",
+        "id": 522
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "The minimum diameter of a steel ground electrode is __________.",
+        "choices": [
+            "10 mm",
+            "12 mm",
+            "14 mm",
+            "16 mm"
+        ],
+        "answer": "16 mm",
+        "id": 523
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "The ampacity of the fuse should be 125% of the continuous load current is covered by __________.",
+        "choices": [
+            "Installation design",
+            "Wiring design",
+            "manufacturing design",
+            "construction design"
+        ],
+        "answer": "Wiring design",
+        "id": 524
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Generators and motors should be dust proof is covered by __________.",
+        "choices": [
+            "Installation design",
+            "Manufacturing design",
+            "wiring design",
+            "construction design"
+        ],
+        "answer": "Manufacturing design",
+        "id": 525
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "The equipment grounding conductor of a branch circuit shall be identified by what color?",
+        "choices": [
+            "Green",
+            "Black",
+            "White",
+            "Gray"
+        ],
+        "answer": "Green",
+        "id": 526
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Which location may be temporarily subject to dampness or wetness?",
+        "choices": [
+            "Dry",
+            "Damp",
+            "Moist",
+            "Wet"
+        ],
+        "answer": "Dry",
+        "id": 527
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Installations underground or in concrete slabs or masonry in direct contact with the earth.",
+        "choices": [
+            "Wet location",
+            "Dry location",
+            "Damp location",
+            "Moist location"
+        ],
+        "answer": "Wet location",
+        "id": 528
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "This refers to the energy-consuming equipment including motors, heaters, furnace, light sources and other devices which utilize electric energy.",
+        "choices": [
+            "Industrial Plant",
+            "Utilization equipment",
+            "Processing plant",
+            "Transformer"
+        ],
+        "answer": "Utilization equipment",
+        "id": 529
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "A general term covering on assembly or assemblies of devices for the switching, controlling, metering of electric power.",
+        "choices": [
+            "Enclosure",
+            "Switchgear",
+            "Switchboard",
+            "Panelboard"
+        ],
+        "answer": "Switchgear",
+        "id": 530
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "What is the primary purpose of PEC?",
+        "choices": [
+            "To serve as guide for the untrained personnel",
+            "Is to conserve electrical energy",
+            "Is the practical safeguarding of personal and property",
+            "To serve as manual guide for design"
+        ],
+        "answer": "Is the practical safeguarding of personal and property",
+        "id": 531
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Vertical clearance from ground over residential property and driveways for service-drop under 300V to ground:",
+        "choices": [
+            "3100 mm",
+            "3700 mm",
+            "4600 mm",
+            "5500 mm"
+        ],
+        "answer": "3700 mm",
+        "id": 532
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "When the circuit breaker is installed in enclosed switchboards, they are usually derated to a certain percentage. What is this percentage?",
+        "choices": [
+            "60 percent",
+            "50 percent",
+            "80 percent",
+            "70 percent"
+        ],
+        "answer": "80 percent",
+        "id": 533
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Before starting my installation work, alteration, repair or extension on any electrical system, what type of permit is needed?",
+        "choices": [
+            "Building permit",
+            "Working permit",
+            "Electrical permit",
+            "Mayor's permit"
+        ],
+        "answer": "Electrical permit",
+        "id": 534
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "For school buildings, the general lighting load is __________ VA per square meters.",
+        "choices": [
+            "24",
+            "28",
+            "16",
+            "8"
+        ],
+        "answer": "24",
+        "id": 535
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "For offices, the general lighting load is __________ VA per square meters.",
+        "choices": [
+            "24",
+            "28",
+            "16",
+            "8"
+        ],
+        "answer": "28",
+        "id": 536
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "For hospitals, the general lighting load is __________ VA per square meters.",
+        "choices": [
+            "24",
+            "28",
+            "16",
+            "8"
+        ],
+        "answer": "16",
+        "id": 537
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "What is the temperature rating of THHN insulation?",
+        "choices": [
+            "60 deg C",
+            "90 deg C",
+            "85 deg C",
+            "75 deg C"
+        ],
+        "answer": "90 deg C",
+        "id": 538
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Service conductor made up in the form of cable.",
+        "choices": [
+            "Service cable",
+            "Service Raceway",
+            "Service Drop",
+            "Service Lateral"
+        ],
+        "answer": "Service cable",
+        "id": 539
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "An enclosed channel designed expressly for holding wires, cables, or busbars...",
+        "choices": [
+            "Duct",
+            "Raceway",
+            "Cable Tray",
+            "Tube"
+        ],
+        "answer": "Raceway",
+        "id": 540
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "The continuous current must not exceed __________ of rating of the conductor?",
+        "choices": [
+            "60 percent",
+            "70 percent",
+            "80 percent",
+            "90 percent"
+        ],
+        "answer": "80 percent",
+        "id": 541
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "To consider as continuous load:",
+        "choices": [
+            "3 hours or more",
+            "4 hours or more",
+            "5 hours or more",
+            "6 hours or more"
+        ],
+        "answer": "3 hours or more",
+        "id": 542
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "What is the branch circuit rating for hermetic motor 80 A? (Typically sized at 125%)",
+        "choices": [
+            "80",
+            "92",
+            "100",
+            "120"
+        ],
+        "answer": "100",
+        "id": 543
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "A line to ground system, the white conductor that carries current in normal operation is?",
+        "choices": [
+            "Neutral",
+            "ground",
+            "grounding conductor",
+            "grounding electrode"
+        ],
+        "answer": "Neutral",
+        "id": 544
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "A 4-wire system has a high-leg voltage that is indicated by a wire of color __________.",
+        "choices": [
+            "Black",
+            "orange",
+            "brown",
+            "red"
+        ],
+        "answer": "orange",
+        "id": 545
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "The circuit conductors between the final overcurrent device protecting the circuit and the outlet(s).",
+        "choices": [
+            "Feeder",
+            "Service lateral",
+            "Branch Circuit",
+            "Service Conductor"
+        ],
+        "answer": "Branch Circuit",
+        "id": 546
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "What is the temperature rating of a TW insulated conductor?",
+        "choices": [
+            "60 deg C",
+            "75 deg C",
+            "90 deg C",
+            "100 deg C"
+        ],
+        "answer": "60 deg C",
+        "id": 547
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Electrical symbol represented by a solid line",
+        "choices": [
+            "Intercom wiring",
+            "Telephone wiring",
+            "Conduit",
+            "Service entrance"
+        ],
+        "answer": "Conduit",
+        "id": 548
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Device used to pull wire through the conduit.",
+        "choices": [
+            "Straps",
+            "Fish tape",
+            "Wire tongs",
+            "Puller"
+        ],
+        "answer": "Fish tape",
+        "id": 549
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "What is a protective device designed to protect an individual against electric shock?",
+        "choices": [
+            "Circuit Breaker",
+            "AFCI",
+            "Differential Relay",
+            "GFCI"
+        ],
+        "answer": "GFCI",
+        "id": 550
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "An automatic or nonautomatic device for transferring one or more load conductor connections from one power source to another.",
+        "choices": [
+            "General Use Switch",
+            "Isolating Switch",
+            "Transfer Switch",
+            "Bypass Isolation Switch"
+        ],
+        "answer": "Transfer Switch",
+        "id": 551
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Modern contact surface is made from what alloys?",
+        "choices": [
+            "Copper",
+            "silver",
+            "Aluminum",
+            "Manganin"
+        ],
+        "answer": "silver",
+        "id": 552
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "For the purpose of lightning protection, a high-rise building is a building with a height over how much?",
+        "choices": [
+            "23 m",
+            "50 m",
+            "20 m",
+            "15 m"
+        ],
+        "answer": "23 m",
+        "id": 553
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Any device that performs signal conversion is __________.",
+        "choices": [
+            "Modulator",
+            "Modem",
+            "Keyboard",
+            "Plotter"
+        ],
+        "answer": "Modem",
+        "id": 554
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Air conditioning load has a demand load of __________.",
+        "choices": [
+            "80 percent",
+            "100 percent",
+            "125 percent",
+            "150 percent"
+        ],
+        "answer": "100 percent",
+        "id": 555
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Which of the following wires is applicable for underground service entrance conductors?",
+        "choices": [
+            "type THWN",
+            "type UF",
+            "type MI",
+            "type USE"
+        ],
+        "answer": "type USE",
+        "id": 556
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Each of the following may result to overcurrent EXCEPT __________.",
+        "choices": [
+            "Overload",
+            "Ground Fault",
+            "Short Circuit",
+            "Open Circuit"
+        ],
+        "answer": "Open Circuit",
+        "id": 557
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Most wires used in residential house wiring are usually insulated by which of the following?",
+        "choices": [
+            "Asbestos",
+            "Cotton",
+            "Thermoplastic",
+            "Varnished cambric"
+        ],
+        "answer": "Thermoplastic",
+        "id": 558
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Protection of workers from impact penetration from falling and flying objects...",
+        "choices": [
+            "Hard Hat",
+            "Toe Board",
+            "Harness",
+            "Belt"
+        ],
+        "answer": "Hard Hat",
+        "id": 559
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "What color is used designate caution, limited to warning against stating, use of, or movement of equipment which is under repair?",
+        "choices": [
+            "Blue",
+            "Orange",
+            "Red",
+            "Yellow"
+        ],
+        "answer": "Blue",
+        "id": 560
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Which of the following is not fundamental rule in PEC?",
+        "choices": [
+            "Construction Rule",
+            "Wiring rule",
+            "Installation Rule",
+            "Manufacturing Rule"
+        ],
+        "answer": "Wiring rule",
+        "id": 561
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Which of the following is known as electrical steel?",
+        "choices": [
+            "Silicon steel",
+            "stainless steel",
+            "carbon steel",
+            "cast steel"
+        ],
+        "answer": "Silicon steel",
+        "id": 562
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Yellow and Black signs mean:",
+        "choices": [
+            "You must do something",
+            "You must not do something",
+            "hazard or danger",
+            "Safe conditions"
+        ],
+        "answer": "hazard or danger",
+        "id": 563
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "What is the standard color for safety signages to indicate the presence of radiation hazards?",
+        "choices": [
+            "Green with combination of red",
+            "Orange",
+            "Blue",
+            "Purple with combination of yellow"
+        ],
+        "answer": "Purple with combination of yellow",
+        "id": 564
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Electricity was suddenly disrupted by a lighting strike, after 5-10 seconds, the power was automatically restored...",
+        "choices": [
+            "Safety switch",
+            "Automatic transfer switch",
+            "Double throw switch",
+            "UPS switch"
+        ],
+        "answer": "Automatic transfer switch",
+        "id": 565
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "What Is the color of the conductor used as a neutral?",
+        "choices": [
+            "Orange",
+            "yellow",
+            "white",
+            "green"
+        ],
+        "answer": "white",
+        "id": 566
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "What colors are used on signs for fighting/lighting equipment?",
+        "choices": [
+            "Black pictogram on yellow background",
+            "white Pictogram on a red background",
+            "White Pictogram on a green equipment",
+            "none of these"
+        ],
+        "answer": "white Pictogram on a red background",
+        "id": 567
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "PPE for shock and arc flash protection includes __________.",
+        "choices": [
+            "Safety glasses",
+            "voltage rated gloves/suits",
+            "hearing protection",
+            "all of these"
+        ],
+        "answer": "all of these",
+        "id": 568
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "What does PPE stand for?",
+        "choices": [
+            "Protective Preventative Equipment",
+            "Personal Preventative Equipment",
+            "Personal Protective Equipment",
+            "People's Protective Equipment"
+        ],
+        "answer": "Personal Protective Equipment",
+        "id": 569
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Recognizable as suitable for the specific purpose, function, use, environment application...",
+        "choices": [
+            "Listed",
+            "labeled",
+            "approved",
+            "identified"
+        ],
+        "answer": "approved",
+        "id": 570
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "The disconnecting means for motor circuits shall have an ampere rating of at least 115% of the full-load current rating...",
+        "choices": [
+            "Manufacturing rule",
+            "construction rule",
+            "wiring design rule",
+            "installation rule"
+        ],
+        "answer": "installation rule",
+        "id": 571
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Which of the following metals has the highest specific heat capacity at 100 deg C?",
+        "choices": [
+            "Aluminum",
+            "silver",
+            "copper",
+            "iron"
+        ],
+        "answer": "Aluminum",
+        "id": 572
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "MC cable insulation shall have a maximum operating temperature of not less than __________.",
+        "choices": [
+            "75 deg C",
+            "80 deg C",
+            "90 deg C",
+            "60 deg C"
+        ],
+        "answer": "90 deg C",
+        "id": 573
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Which of the following metals has the highest melting point?",
+        "choices": [
+            "Copper",
+            "gold",
+            "silver",
+            "tungsten"
+        ],
+        "answer": "tungsten",
+        "id": 574
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "The inner strand of ACSR is made of __________.",
+        "choices": [
+            "Brass",
+            "steel",
+            "copper",
+            "lead"
+        ],
+        "answer": "steel",
+        "id": 575
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "In dwelling unit the lighting expressed as VA/sq.m is at least, __________.",
+        "choices": [
+            "28",
+            "24",
+            "16",
+            "8"
+        ],
+        "answer": "24",
+        "id": 576
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Which conduit is not suitable for wet location?",
+        "choices": [
+            "RMC",
+            "IMC",
+            "RNMC",
+            "FMC"
+        ],
+        "answer": "FMC",
+        "id": 577
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "In PEC 1, rated voltage for computation of lighting receptacle and outlet is based on,",
+        "choices": [
+            "minimum",
+            "maximum",
+            "effective",
+            "average"
+        ],
+        "answer": "minimum",
+        "id": 578
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Overvoltage surges in a power system may be caused by __________.",
+        "choices": [
+            "lightning",
+            "resonance",
+            "switching",
+            "any of these"
+        ],
+        "answer": "any of these",
+        "id": 579
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Ground Fault Circuit Interrupter(GFCI)must be installed in I- basement, II- attachable garage, III- Detachable garage;",
+        "choices": [
+            "I",
+            "I and II",
+            "II and III",
+            "I, II and III"
+        ],
+        "answer": "I, II and III",
+        "id": 580
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "In a kitchen, the minimum number of branch circuit is,",
+        "choices": [
+            "2",
+            "3",
+            "1",
+            "6"
+        ],
+        "answer": "2",
+        "id": 581
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "How do you call the connection between the lighting panel to the outlets?",
+        "choices": [
+            "branch circuit",
+            "service lateral",
+            "feeder",
+            "traveller wire"
+        ],
+        "answer": "branch circuit",
+        "id": 582
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "A permanent joining of metal parts to form an electrical conductive path that ensures electrical continuity...",
+        "choices": [
+            "counterpoise",
+            "air terminal",
+            "interlink",
+            "bonding"
+        ],
+        "answer": "bonding",
+        "id": 583
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "In dwelling units, the horizontal distance between outlets in a hallway is __________ mm. (hallway 3m or more requires at least one outlet)",
+        "choices": [
+            "1800",
+            "1000",
+            "3000",
+            "1500"
+        ],
+        "answer": "3000",
+        "id": 584
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Receptacle outlet shall be located not more than __________ mm above counter top of a kitchen in dwelling units",
+        "choices": [
+            "600",
+            "250",
+            "300",
+            "500"
+        ],
+        "answer": "500",
+        "id": 585
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "At least __________ mm of free conductor, measured from the point in the box...",
+        "choices": [
+            "150",
+            "250",
+            "300",
+            "500"
+        ],
+        "answer": "150",
+        "id": 586
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Which of the following is not considered in choosing a fuse?",
+        "choices": [
+            "voltage rating",
+            "contact resistance",
+            "interrupting rating",
+            "ampere rating"
+        ],
+        "answer": "contact resistance",
+        "id": 587
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Electrodes of rods of iron or steel shall be at least __________ mm in diameter.",
+        "choices": [
+            "13",
+            "16",
+            "20",
+            "6"
+        ],
+        "answer": "16",
+        "id": 588
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Each motor compressor shall have an overload relay protection set at not more than ______ % of the motor compressor rated load current.",
+        "choices": [
+            "130",
+            "140",
+            "175",
+            "125"
+        ],
+        "answer": "140",
+        "id": 589
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Electrodes permitted for grounding are the following except",
+        "choices": [
+            "underground water metal pipe",
+            "concrete encased electrode",
+            "metal frame of building electrode",
+            "metal underground gas piping system"
+        ],
+        "answer": "metal underground gas piping system",
+        "id": 590
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "What is the derating factor of 4 to 6 conductors inside a raceway?",
+        "choices": [
+            "24%",
+            "50%",
+            "60%",
+            "80%"
+        ],
+        "answer": "80%",
+        "id": 591
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "The color used to indicate grounding conductor larger than 14 mm^2 are _________ and ________ (II-white, III-gray, IV-3 types except green stripes)",
+        "choices": [
+            "I, II, III",
+            "I, II, IV",
+            "II, III, IV",
+            "I, III, IV"
+        ],
+        "answer": "II, III, IV",
+        "id": 592
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "Which of the following electrodes are not permitted for grounding purpose?",
+        "choices": [
+            "aluminum electrode",
+            "metal underground metal pipes",
+            "concrete encased",
+            "metal frame of the building structure"
+        ],
+        "answer": "aluminum electrode",
+        "id": 593
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "What is the minimum length and size of grounding electrode bare copper conductor in concrete encased electrode?",
+        "choices": [
+            "5,000 mm; 22mm^2",
+            "5,000 mm; 30mm^2",
+            "6,000 mm; 22mm^2",
+            "6,000 mm; 30mm^2"
+        ],
+        "answer": "6,000 mm; 22mm^2",
+        "id": 594
+    },
+    {
+        "topic_name": "PEC_REVIEW",
+        "question_text": "What is the minimum ampere rating of the disconnecting means of a hermetic motor having 30A rated current? (115% minimum)",
+        "choices": [
+            "75",
+            "34.5",
+            "52.5",
+            "37.5"
+        ],
+        "answer": "34.5",
+        "id": 595
     }
 ]
